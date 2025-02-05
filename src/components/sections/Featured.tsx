@@ -37,9 +37,9 @@ const Featured = () => {
                 <h2 className="text-white text-[48px] font-bold uppercase leading-[52.8px] font-enfilade break-words">
                   JPEGMAFIA: To Serve & Protect
                 </h2>
-                <p className="font-handjet">
+                <p className="font-handjet text-base leading-[17.6px]">
                   <span className="text-[#C6FF00]">By Sandra Song</span>{" "}
-                  vext.media/jpegmafia-2024
+                  <span className="text-white">vext.media/jpegmafia-2024</span>
                 </p>
               </div>
             </div>
