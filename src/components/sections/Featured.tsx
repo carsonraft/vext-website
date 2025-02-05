@@ -24,7 +24,7 @@ const Featured = () => {
           />
 
           {/* Content overlay */}
-          <div className="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-black to-transparent">
+          <div className="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-black to-transparent text-left">
             <div>
               <div className="text-sm font-bold mb-2 font-handjet">MUSIC</div>
               <h2 className="text-white text-[48px] font-bold uppercase leading-[52.8px] font-enfilade break-words">
