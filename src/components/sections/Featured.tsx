@@ -10,7 +10,7 @@ const Featured = () => {
             loading="lazy"
             src="/lovable-uploads/c92449a2-2564-4fcd-afcf-0268325a9b76.png"
             alt="JPEGMAFIA Album Cover"
-            className="w-full h-[400px] object-cover object-[center_75%] scale-125"
+            className="w-full h-[400px] object-cover object-[center_85%] scale-125"
           />
           
           {/* Pattern overlay */}
