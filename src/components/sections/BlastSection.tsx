@@ -7,7 +7,7 @@ const BlastSection = () => {
         <div className="grid grid-cols-2 gap-8">
           <div className="space-y-8 pl-8">
             <div>
-              <h3 className="inline-block px-4 py-1 rounded-full border border-white text-[24px] font-bold mb-4 font-instrument text-white">
+              <h3 className="inline-block px-4 py-1 rounded-full border-[0.5px] border-white text-[24px] font-bold mb-4 font-instrument text-white">
                 VEXT BLAST
               </h3>
               <div className="-space-y-4">
