@@ -2,20 +2,20 @@ import React from "react";
 
 const BlastSection = () => {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-[#04120B] py-16">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 gap-8">
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4 font-instrument">VEXT BLAST</h3>
+              <h3 className="text-2xl font-bold mb-4 font-instrument text-white">VEXT BLAST</h3>
               <div className="space-y-4">
                 <article className="border-b pb-4">
-                  <h4 className="text-xl font-semibold font-instrument">
+                  <h4 className="text-xl font-semibold font-instrument text-white">
                     The Rise of Recession Core
                   </h4>
                 </article>
                 <article className="border-b pb-4">
-                  <h4 className="text-xl font-semibold font-instrument">
+                  <h4 className="text-xl font-semibold font-instrument text-white">
                     The Rise of Recession Core
                   </h4>
                 </article>
