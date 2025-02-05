@@ -2,7 +2,7 @@ import React from "react";
 
 const Featured = () => {
   return (
-    <section className="relative w-full bg-black text-white">
+    <section className="relative w-full">
       <div className="w-full">
         <div className="album-cover relative">
           {/* Base image layer */}
@@ -42,6 +42,7 @@ const Featured = () => {
           </div>
         </div>
       </div>
+      <div className="bg-[#04120B] h-8 w-full"></div>
     </section>
   );
 };
