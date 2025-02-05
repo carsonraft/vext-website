@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="w-full bg-[#222222] text-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-0">
         <div className="flex items-center justify-between">
           <img
             loading="lazy"
