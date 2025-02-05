@@ -35,7 +35,7 @@ const BlastSection = () => {
               loading="lazy"
               src="/lovable-uploads/c92449a2-2564-4fcd-afcf-0268325a9b76.png"
               alt="Album Cover"
-              className="w-3/4 h-auto border-4 border-[#C6FF00]"
+              className="w-3/4 h-auto border-2 border-[#C6FF00]"
             />
           </div>
         </div>
