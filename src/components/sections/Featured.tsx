@@ -2,8 +2,8 @@ import React from "react";
 
 const Featured = () => {
   return (
-    <section className="relative w-full bg-black text-white py-12">
-      <div className="container mx-auto">
+    <section className="relative w-full bg-black text-white">
+      <div className="w-full">
         <div className="album-cover relative">
           {/* Base image layer */}
           <img
