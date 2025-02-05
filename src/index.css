@@ -123,7 +123,7 @@
 }
 
 .album-cover img {
-  filter: grayscale(100%) contrast(1.2) brightness(0.4) sepia(1) hue-rotate(90deg);
+  filter: hue-rotate(120deg) saturate(1.5);
 }
 
 .album-cover::before,
