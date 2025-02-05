@@ -11,7 +11,6 @@ const BlastSection = () => {
                 <h3 className="inline-block px-4 py-1 rounded-full border-[0.25px] border-white text-[24px] font-bold mb-4 font-instrument text-white relative z-10">
                   VEXT BLAST
                 </h3>
-                <div className="absolute inset-0 rounded-full border-[0.25px] border-white transform translate-x-[5%] -translate-y-[5%] z-0"></div>
               </div>
               <div className="-space-y-4">
                 <article className="pl-4 relative">
