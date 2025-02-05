@@ -11,8 +11,8 @@ const BlastSection = () => {
                 VEXT BLAST
               </h3>
               <div className="-space-y-4">
-                <article className="pl-4 group relative">
-                  <div className="absolute inset-x-[-100vw] bg-[#C6FF00]/0 group-hover:bg-[#C6FF00]/10 transition-colors duration-200 h-full" />
+                <article className="pl-4 relative">
+                  <div className="absolute inset-x-[-50vw] bg-[#C6FF00]/10 h-full" />
                   <h4 className="text-[48px] font-semibold font-enfilade text-white uppercase relative">
                     The Rise of Recession Core
                   </h4>
