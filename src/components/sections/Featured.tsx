@@ -4,7 +4,7 @@ const Featured = () => {
   return (
     <section className="relative w-full bg-black text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="relative">
+        <div className="album-cover relative">
           {/* Base image layer */}
           <img
             loading="lazy"
@@ -13,12 +13,13 @@ const Featured = () => {
             className="w-full h-[600px] object-cover"
           />
           
-          {/* Pattern overlay */}
+          {/* Green overlay with pattern */}
           <div 
-            className="absolute inset-0 bg-black/20"
+            className="absolute inset-0 bg-[#8cc63f]/10"
             style={{
               backgroundImage: `url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E")`,
-              backgroundSize: '8px 8px'
+              backgroundSize: '8px 8px',
+              mixBlendMode: 'multiply'
             }}
           />
 

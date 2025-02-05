@@ -103,6 +103,11 @@
   }
 }
 
+/* Album Cover Styles */
+.album-cover {
+  @apply relative w-full overflow-hidden;
+}
+
 /* Header Styles */
 .main-header {
   @apply bg-black p-4;
