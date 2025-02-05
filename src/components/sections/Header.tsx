@@ -20,17 +20,17 @@ const Header = () => {
             className="h-12"
           />
           <nav className="flex items-center space-x-8">
-            <div className="text-sm font-bold">EXPLORE:</div>
+            <div className="text-sm font-bold font-enfilade">EXPLORE:</div>
             <ul className="flex items-center space-x-6">
               {exploreItems.map((item) => (
                 <li key={item}>
-                  <button className="text-sm hover:text-gray-300 transition-colors">
+                  <button className="text-sm hover:text-gray-300 transition-colors font-enfilade">
                     {item}
                   </button>
                 </li>
               ))}
               <li>
-                <button className="text-sm font-bold">&gt;&gt;</button>
+                <button className="text-sm font-bold font-enfilade">&gt;&gt;</button>
               </li>
             </ul>
           </nav>

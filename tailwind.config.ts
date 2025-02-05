@@ -21,6 +21,7 @@ export default {
 			fontFamily: {
 				'instrument': ['Instrument Serif', 'serif'],
 				'handjet': ['Handjet', 'cursive'],
+				'enfilade': ['Enfilade Display', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

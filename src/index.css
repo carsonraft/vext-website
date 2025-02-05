@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Enfilade Display';
+  src: url('./EnfiladeTRIALDisplay-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Enfilade Display';
+  src: url('./EnfiladeTRIALDisplay-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -255,3 +269,4 @@
 .footer-social a {
   @apply text-gray-600 no-underline mx-2 hover:text-white transition-colors;
 }
+
