@@ -10,15 +10,15 @@ const Featured = () => {
             loading="lazy"
             src="/lovable-uploads/c92449a2-2564-4fcd-afcf-0268325a9b76.png"
             alt="JPEGMAFIA Album Cover"
-            className="w-full h-[600px] object-cover"
+            className="w-full h-[600px] object-cover object-bottom"
           />
           
-          {/* Green overlay with pattern */}
+          {/* Pattern overlay */}
           <div 
             className="absolute inset-0 bg-[#8cc63f]/10"
             style={{
-              backgroundImage: `url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E")`,
-              backgroundSize: '8px 8px',
+              backgroundImage: `url("/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png")`,
+              backgroundSize: '100% 100%',
               mixBlendMode: 'multiply'
             }}
           />
