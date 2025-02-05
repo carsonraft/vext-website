@@ -22,12 +22,12 @@ const BlastSection = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="relative">
             <img
               loading="lazy"
-              src="/lovable-uploads/71d08123-14c8-41ec-8980-839ac359f814.png"
-              alt="Vext Desktop"
-              className="w-full h-auto"
+              src="/lovable-uploads/c92449a2-2564-4fcd-afcf-0268325a9b76.png"
+              alt="Album Cover"
+              className="w-full h-auto border-4 border-[#C6FF00]"
             />
           </div>
         </div>
