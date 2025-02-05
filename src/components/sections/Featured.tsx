@@ -26,7 +26,11 @@ const Featured = () => {
           {/* Content overlay */}
           <div className="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-black to-transparent text-left">
             <div>
-              <div className="text-white text-[32px] font-instrument leading-[35.20px] font-normal">MUSIC</div>
+              <div className="inline-block">
+                <div className="relative px-5 py-1 border border-white rounded-[21px]">
+                  <div className="text-white text-[32px] font-instrument leading-[35.20px] font-normal">MUSIC</div>
+                </div>
+              </div>
               <h2 className="text-white text-[48px] font-bold uppercase leading-[52.8px] font-enfilade break-words">
                 JPEGMAFIA: To Serve & Protect
               </h2>
