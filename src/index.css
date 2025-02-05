@@ -92,10 +92,147 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border m-0 p-0;
+    box-sizing: border-box;
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-black text-white;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.4;
   }
+}
+
+/* Header Styles */
+.main-header {
+  @apply bg-black p-4;
+}
+
+.header-inner {
+  @apply w-[90%] max-w-[1200px] mx-auto flex items-center justify-between;
+}
+
+.logo {
+  @apply h-10;
+}
+
+.main-nav ul {
+  @apply flex gap-6 list-none;
+}
+
+.main-nav a {
+  @apply text-gray-300 font-medium no-underline hover:text-white transition-colors;
+}
+
+/* Hero Section */
+.hero-section {
+  @apply relative py-20 px-4 text-center;
+  background: url("/lovable-uploads/71d08123-14c8-41ec-8980-839ac359f814.png") center/cover no-repeat;
+}
+
+.hero-content {
+  @apply max-w-[800px] mx-auto bg-[rgba(16,24,16,0.6)] p-8;
+}
+
+.hero-category {
+  @apply text-[#8cc63f] text-lg mb-2;
+}
+
+.hero-title {
+  @apply text-4xl mb-2 uppercase;
+}
+
+.hero-byline {
+  @apply text-sm text-gray-400;
+}
+
+/* Vext Blast */
+.vext-blast {
+  @apply bg-[#101710] py-12 px-4;
+}
+
+.vext-blast-content {
+  @apply w-[90%] max-w-[1200px] mx-auto grid grid-cols-[1fr,auto] gap-8 items-start;
+}
+
+.blast-articles {
+  @apply list-none mb-4;
+}
+
+.blast-articles li {
+  @apply my-2 cursor-pointer;
+}
+
+.blast-articles li.active {
+  @apply font-bold text-[#8cc63f];
+}
+
+/* Mission Section */
+.mission-section {
+  @apply bg-[#1a1a1a] text-center py-12 px-4;
+}
+
+.mission-section h2 {
+  @apply text-3xl mb-4;
+}
+
+.mission-section p {
+  @apply max-w-[700px] mx-auto mb-6 leading-relaxed;
+}
+
+.btn-cta {
+  @apply inline-block bg-[#8cc63f] text-black no-underline py-3 px-6 font-bold rounded hover:bg-[#a6e04b] transition-colors;
+}
+
+/* Vext Is Next Section */
+.vext-is-next {
+  @apply bg-black py-12 px-4 text-white text-center;
+}
+
+.next-content {
+  @apply max-w-[800px] mx-auto;
+}
+
+.vext-is-next h1 {
+  @apply text-4xl mb-4;
+}
+
+.vext-is-next h2 {
+  @apply text-2xl mb-4;
+}
+
+.read-more {
+  @apply text-[#8cc63f] no-underline font-bold;
+}
+
+/* Skull CTA */
+.skull-cta {
+  @apply flex flex-wrap justify-center items-center bg-black py-12 px-4;
+}
+
+.skull-visual img {
+  @apply w-[150px] mx-auto mb-4;
+}
+
+.skull-cta-text {
+  @apply max-w-[400px] mx-4 text-center;
+}
+
+.skull-cta-text h2 {
+  @apply text-3xl mb-2;
+}
+
+/* Footer */
+.main-footer {
+  @apply bg-[#101010] text-gray-500 py-8 px-4 text-center;
+}
+
+.footer-links,
+.footer-social {
+  @apply flex flex-wrap justify-center gap-4 my-2;
+}
+
+.footer-links a,
+.footer-social a {
+  @apply text-gray-600 no-underline mx-2 hover:text-white transition-colors;
 }
