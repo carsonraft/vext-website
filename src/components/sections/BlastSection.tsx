@@ -10,7 +10,7 @@ const BlastSection = () => {
               <h3 className="inline-block px-4 py-1 rounded-full border border-white text-[24px] font-bold mb-4 font-instrument text-white">
                 VEXT BLAST
               </h3>
-              <div>
+              <div className="-space-y-4">
                 <article className="pl-4">
                   <h4 className="text-[48px] font-semibold font-enfilade text-white uppercase">
                     The Rise of Recession Core
@@ -18,7 +18,12 @@ const BlastSection = () => {
                 </article>
                 <article className="pl-4">
                   <h4 className="text-[48px] font-semibold font-enfilade text-white uppercase">
-                    The Rise of Recession Core
+                    The Coquette Effect
+                  </h4>
+                </article>
+                <article className="pl-4">
+                  <h4 className="text-[48px] font-semibold font-enfilade text-white uppercase">
+                    Measuring Famous Dick Pics Using Trigonometry
                   </h4>
                 </article>
               </div>
