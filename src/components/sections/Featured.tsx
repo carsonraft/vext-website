@@ -25,23 +25,15 @@ const Featured = () => {
 
           {/* Content overlay */}
           <div className="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-black to-transparent">
-            <div className="flex items-center space-x-4 mb-4">
-              <img
-                loading="lazy"
-                src="/lovable-uploads/c92449a2-2564-4fcd-afcf-0268325a9b76.png"
-                alt="Artist"
-                className="w-16 h-16 rounded-full object-cover"
-              />
-              <div>
-                <div className="text-sm font-bold mb-2 font-handjet">MUSIC</div>
-                <h2 className="text-white text-[48px] font-bold uppercase leading-[52.8px] font-enfilade break-words">
-                  JPEGMAFIA: To Serve & Protect
-                </h2>
-                <p className="font-handjet text-base leading-[17.6px]">
-                  <span className="text-[#C6FF00]">By Sandra Song</span>{" "}
-                  <span className="text-white">vext.media/jpegmafia-2024</span>
-                </p>
-              </div>
+            <div>
+              <div className="text-sm font-bold mb-2 font-handjet">MUSIC</div>
+              <h2 className="text-white text-[48px] font-bold uppercase leading-[52.8px] font-enfilade break-words">
+                JPEGMAFIA: To Serve & Protect
+              </h2>
+              <p className="font-handjet text-base leading-[17.6px]">
+                <span className="text-[#C6FF00]">By Sandra Song</span>{" "}
+                <span className="text-white">vext.media/jpegmafia-2024</span>
+              </p>
             </div>
           </div>
         </div>
