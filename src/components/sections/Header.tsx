@@ -10,12 +10,12 @@ const Header = () => {
   ];
 
   return (
-    <header className="w-full bg-black text-white">
+    <header className="w-full bg-[#222222] text-white">
       <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true"
             alt="Vext Logo"
             className="h-12"
           />
