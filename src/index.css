@@ -108,6 +108,20 @@
   @apply relative w-full overflow-hidden;
 }
 
+.album-cover::before,
+.album-cover::after {
+  content: "";
+  @apply absolute border-2 border-[#8cc63f] z-[1];
+}
+
+.album-cover::before {
+  @apply -top-2 -left-2 -right-2 -bottom-2;
+}
+
+.album-cover::after {
+  @apply -top-4 -left-4 -right-4 -bottom-4;
+}
+
 /* Header Styles */
 .main-header {
   @apply bg-black p-4;
