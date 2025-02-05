@@ -34,7 +34,7 @@ const Featured = () => {
               />
               <div>
                 <div className="text-sm font-bold mb-2 font-handjet">MUSIC</div>
-                <h2 className="text-3xl font-bold mb-2 font-instrument">
+                <h2 className="text-white text-[96px] font-bold uppercase leading-[105.6px] font-['EnfiladeTRIAL_Headline'] break-words">
                   JPEGMAFIA: To Serve & Protect
                 </h2>
                 <p className="font-handjet">
