@@ -24,7 +24,7 @@ const Header = () => {
             <ul className="flex items-center space-x-6">
               {exploreItems.map((item) => (
                 <li key={item}>
-                  <button className="text-lg hover:text-gray-300 transition-colors font-handjet">
+                  <button className="text-xl uppercase hover:text-gray-300 transition-colors font-handjet">
                     {item}
                   </button>
                 </li>
