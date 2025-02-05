@@ -1,12 +1,22 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from "react";
+import Header from "@/components/sections/Header";
+import Featured from "@/components/sections/Featured";
+import BlastSection from "@/components/sections/BlastSection";
+import Mission from "@/components/sections/Mission";
+import CreatorCTA from "@/components/sections/CreatorCTA";
+import Footer from "@/components/sections/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-white">
+      <Header />
+      <main>
+        <Featured />
+        <BlastSection />
+        <Mission />
+        <CreatorCTA />
+      </main>
+      <Footer />
     </div>
   );
 };
