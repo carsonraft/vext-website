@@ -16,7 +16,7 @@ const Footer = () => {
           <div>
             <img
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/94212fb95938ac1bc3f5c55b4df18ce3dc6b2bb35c1104ae5021d6dc21bce305?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/94212fb95938ac1bc3f5c55b4df18ce3dc6b2bb35c1104ae5021d6dc21bce305?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/94212fb95938ac1bc3f5c55b4df18ce3dc6b2bb35c1104ae5021d6dc21bce305?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/94212fb95938ac1bc3f5c55b4df18ce3dc6b2bb35c1104ae5021d6dc21bce305?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/94212fb95938ac1bc3f5c55b4df18ce3dc6b2bb35c1104ae5021d6dc21bce305?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/94212fb95938ac1bc3f5c55b4df18ce3dc6b2bb35c1104ae5021d6dc21bce305?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/94212fb95938ac1bc3f5c55b4df18ce3dc6b2bb35c1104ae5021d6dc21bce305?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/94212fb95938ac1bc3f5c55b4df18ce3dc6b2bb35c1104ae5021d6dc21bce305?placeholderIfAbsent=true"
+              src="/lovable-uploads/a63108bd-dc69-4bf8-9da0-0bb501fd98e1.png"
               alt="Footer Logo"
               className="h-12 mb-8"
             />
@@ -37,7 +37,7 @@ const Footer = () => {
             <p className="font-bold mb-4">VEXT MEDIA 2024</p>
             <img
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/54dc31161bcffbf1acecb0797b30dc2d5ef0e9fc302c1611f06172430feb2f01?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/54dc31161bcffbf1acecb0797b30dc2d5ef0e9fc302c1611f06172430feb2f01?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/54dc31161bcffbf1acecb0797b30dc2d5ef0e9fc302c1611f06172430feb2f01?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/54dc31161bcffbf1acecb0797b30dc2d5ef0e9fc302c1611f06172430feb2f01?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/54dc31161bcffbf1acecb0797b30dc2d5ef0e9fc302c1611f06172430feb2f01?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/54dc31161bcffbf1acecb0797b30dc2d5ef0e9fc302c1611f06172430feb2f01?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/54dc31161bcffbf1acecb0797b30dc2d5ef0e9fc302c1611f06172430feb2f01?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/54dc31161bcffbf1acecb0797b30dc2d5ef0e9fc302c1611f06172430feb2f01?placeholderIfAbsent=true"
+              src="/lovable-uploads/22bb104d-89b7-47c1-b230-0b286841a663.png"
               alt="Footer Graphic"
               className="inline-block h-12 mb-4"
             />

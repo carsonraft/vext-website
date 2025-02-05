@@ -7,7 +7,7 @@ const Featured = () => {
         <div className="relative">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/6ac2fb9747d57c9bf6d901f7902be3bbeaab1fae0e0868a8476e6bfad239a2a5?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6ac2fb9747d57c9bf6d901f7902be3bbeaab1fae0e0868a8476e6bfad239a2a5?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6ac2fb9747d57c9bf6d901f7902be3bbeaab1fae0e0868a8476e6bfad239a2a5?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6ac2fb9747d57c9bf6d901f7902be3bbeaab1fae0e0868a8476e6bfad239a2a5?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6ac2fb9747d57c9bf6d901f7902be3bbeaab1fae0e0868a8476e6bfad239a2a5?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6ac2fb9747d57c9bf6d901f7902be3bbeaab1fae0e0868a8476e6bfad239a2a5?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6ac2fb9747d57c9bf6d901f7902be3bbeaab1fae0e0868a8476e6bfad239a2a5?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6ac2fb9747d57c9bf6d901f7902be3bbeaab1fae0e0868a8476e6bfad239a2a5?placeholderIfAbsent=true"
+            src="/lovable-uploads/71d08123-14c8-41ec-8980-839ac359f814.png"
             alt="Featured Background"
             className="w-full h-[600px] object-cover"
           />
@@ -15,9 +15,9 @@ const Featured = () => {
             <div className="flex items-center space-x-4 mb-4">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5fe69e7913ea4b748585069c5a5693bad0e6ad57129e933decf2abe7ebff1dd?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5fe69e7913ea4b748585069c5a5693bad0e6ad57129e933decf2abe7ebff1dd?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5fe69e7913ea4b748585069c5a5693bad0e6ad57129e933decf2abe7ebff1dd?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5fe69e7913ea4b748585069c5a5693bad0e6ad57129e933decf2abe7ebff1dd?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5fe69e7913ea4b748585069c5a5693bad0e6ad57129e933decf2abe7ebff1dd?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5fe69e7913ea4b748585069c5a5693bad0e6ad57129e933decf2abe7ebff1dd?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5fe69e7913ea4b748585069c5a5693bad0e6ad57129e933decf2abe7ebff1dd?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5fe69e7913ea4b748585069c5a5693bad0e6ad57129e933decf2abe7ebff1dd?placeholderIfAbsent=true"
+                src="/lovable-uploads/c92449a2-2564-4fcd-afcf-0268325a9b76.png"
                 alt="Artist"
-                className="w-16 h-16 rounded-full"
+                className="w-16 h-16 rounded-full object-cover"
               />
               <div>
                 <div className="text-sm font-bold mb-2 font-handjet">MUSIC</div>
