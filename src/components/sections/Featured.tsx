@@ -31,7 +31,7 @@ const Featured = () => {
                   <div className="text-white text-[24px] font-instrument leading-[28px] font-normal">MUSIC</div>
                 </div>
               </div>
-              <h2 className="text-white text-xl font-bold uppercase leading-[52.8px] font-enfilade break-words">
+              <h2 className="text-white text-[48px] font-bold uppercase leading-[52.8px] font-enfilade break-words">
                 JPEGMAFIA: To Serve & Protect
               </h2>
               <p className="font-handjet text-base leading-[17.6px]">
