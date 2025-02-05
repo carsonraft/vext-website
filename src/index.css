@@ -123,7 +123,7 @@
 }
 
 .album-cover img {
-  filter: grayscale(100%) contrast(1.2) brightness(0.4) sepia(1) hue-rotate(45deg);
+  filter: grayscale(100%) contrast(1.2) brightness(0.4) sepia(1) hue-rotate(90deg);
 }
 
 .album-cover::before,
@@ -273,3 +273,4 @@
 .footer-social a {
   @apply text-gray-600 no-underline mx-2 hover:text-white transition-colors;
 }
+
