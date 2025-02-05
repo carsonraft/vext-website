@@ -5,12 +5,24 @@ const Featured = () => {
     <section className="relative w-full bg-black text-white py-12">
       <div className="container mx-auto px-4">
         <div className="relative">
+          {/* Base image layer */}
           <img
             loading="lazy"
             src="/lovable-uploads/71d08123-14c8-41ec-8980-839ac359f814.png"
             alt="Featured Background"
             className="w-full h-[600px] object-cover"
           />
+          
+          {/* Pattern overlay */}
+          <div 
+            className="absolute inset-0 bg-black/20"
+            style={{
+              backgroundImage: `url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E")`,
+              backgroundSize: '8px 8px'
+            }}
+          />
+
+          {/* Content overlay */}
           <div className="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-black to-transparent">
             <div className="flex items-center space-x-4 mb-4">
               <img
