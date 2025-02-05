@@ -9,44 +9,47 @@ const Footer = () => {
     "Transparency",
   ];
 
+  const socialLinks = [
+    { name: "Twitter", url: "https://twitter.com/vext_magazine" },
+    { name: "Instagram", url: "https://instagram.com/vext_magazine" },
+    { name: "YouTube", url: "https://youtube.com/vextmag" },
+    { name: "Official Site", url: "https://vextmagazine.com" },
+  ];
+
   return (
     <footer className="bg-black text-white py-16">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 gap-8">
-          <div>
-            <img
-              loading="lazy"
-              src="/lovable-uploads/a63108bd-dc69-4bf8-9da0-0bb501fd98e1.png"
-              alt="Footer Logo"
-              className="h-12 mb-8"
-            />
-            <ul className="space-y-4">
-              {links.map((link) => (
-                <li key={link}>
-                  <a
-                    href="#"
-                    className="hover:text-gray-300 transition-colors"
-                  >
-                    {link}
-                  </a>
-                </li>
-              ))}
-            </ul>
+        <div className="grid gap-8">
+          <div className="flex flex-wrap justify-center gap-8">
+            {links.map((link) => (
+              <a
+                key={link}
+                href="#"
+                className="hover:text-gray-300 transition-colors"
+              >
+                {link}
+              </a>
+            ))}
           </div>
-          <div className="text-right">
-            <p className="font-bold mb-4">VEXT MEDIA 2024</p>
-            <img
-              loading="lazy"
-              src="/lovable-uploads/22bb104d-89b7-47c1-b230-0b286841a663.png"
-              alt="Footer Graphic"
-              className="inline-block h-12 mb-4"
-            />
-            <a
-              href="mailto:info@vext.media"
-              className="block hover:text-gray-300 transition-colors"
-            >
-              info@vext.media
-            </a>
+          
+          <div className="flex justify-center gap-8">
+            {socialLinks.map((link) => (
+              <a
+                key={link.name}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-300 transition-colors"
+              >
+                {link.name}
+              </a>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <p className="text-gray-400">
+              © VEXT Media 2024 · <a href="mailto:info@vext.media" className="hover:text-white">info@vext.media</a>
+            </p>
           </div>
         </div>
       </div>
