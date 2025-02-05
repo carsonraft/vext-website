@@ -20,11 +20,11 @@ const Header = () => {
             className="h-16"
           />
           <nav className="flex items-center space-x-8">
-            <div className="text-sm font-bold font-enfilade">EXPLORE:</div>
+            <div className="text-sm font-bold font-instrument">EXPLORE:</div>
             <ul className="flex items-center space-x-6">
               {exploreItems.map((item) => (
                 <li key={item}>
-                  <button className="text-sm hover:text-gray-300 transition-colors font-instrument">
+                  <button className="text-sm hover:text-gray-300 transition-colors font-handjet">
                     {item}
                   </button>
                 </li>
