@@ -30,7 +30,7 @@ const Header = () => {
                 </li>
               ))}
               <li>
-                <button className="text-lg font-bold font-enfilade">&gt;&gt;</button>
+                <button className="text-lg font-handjet">&gt;&gt;</button>
               </li>
             </ul>
           </nav>
