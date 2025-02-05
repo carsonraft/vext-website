@@ -11,13 +11,13 @@ const BlastSection = () => {
                 VEXT BLAST
               </h3>
               <div className="space-y-4">
-                <article className="border-b pb-4">
-                  <h4 className="text-xl font-semibold font-instrument text-white">
+                <article className="border-b pb-4 pl-4">
+                  <h4 className="text-xl font-semibold font-enfilade text-white uppercase">
                     The Rise of Recession Core
                   </h4>
                 </article>
-                <article className="border-b pb-4">
-                  <h4 className="text-xl font-semibold font-instrument text-white">
+                <article className="border-b pb-4 pl-4">
+                  <h4 className="text-xl font-semibold font-enfilade text-white uppercase">
                     The Rise of Recession Core
                   </h4>
                 </article>
