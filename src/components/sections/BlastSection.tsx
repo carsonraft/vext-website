@@ -12,7 +12,7 @@ const BlastSection = () => {
               </h3>
               <div className="-space-y-4">
                 <article className="pl-4 relative">
-                  <div className="absolute inset-x-[-100vw] top-2 bottom-2 bg-[#C6FF00]/10" />
+                  <div className="absolute inset-x-[-100vw] top-2 bottom-2 bg-[#C6FF00]/5" />
                   <h4 className="text-[48px] font-semibold font-enfilade text-white uppercase relative">
                     The Rise of Recession Core
                   </h4>
