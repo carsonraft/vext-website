@@ -7,15 +7,15 @@ const BlastSection = () => {
         <div className="grid grid-cols-2 gap-8">
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">VEXT BLAST</h3>
+              <h3 className="text-2xl font-bold mb-4 font-instrument">VEXT BLAST</h3>
               <div className="space-y-4">
                 <article className="border-b pb-4">
-                  <h4 className="text-xl font-semibold">
+                  <h4 className="text-xl font-semibold font-instrument">
                     The Rise of Recession Core
                   </h4>
                 </article>
                 <article className="border-b pb-4">
-                  <h4 className="text-xl font-semibold">
+                  <h4 className="text-xl font-semibold font-instrument">
                     The Rise of Recession Core
                   </h4>
                 </article>

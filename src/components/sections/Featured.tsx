@@ -20,11 +20,11 @@ const Featured = () => {
                 className="w-16 h-16 rounded-full"
               />
               <div>
-                <div className="text-sm font-bold mb-2">MUSIC</div>
-                <h2 className="text-3xl font-bold mb-2">
+                <div className="text-sm font-bold mb-2 font-handjet">MUSIC</div>
+                <h2 className="text-3xl font-bold mb-2 font-instrument">
                   JPEGMAFIA: To Serve & Protect
                 </h2>
-                <p>
+                <p className="font-handjet">
                   <span className="text-[#C6FF00]">By Sandra Song</span>{" "}
                   vext.media/jpegmafia-2024
                 </p>
