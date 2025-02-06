@@ -28,7 +28,7 @@ const Featured = () => {
           
           {/* Color overlay */}
           <div 
-            className="absolute inset-0 bg-[#04120B]"
+            className="absolute inset-0 bg-[#0A2213]"
             style={{ mixBlendMode: 'color' }}
           />
 
@@ -61,7 +61,7 @@ const Featured = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#04120B] h-8 w-full"></div>
+      <div className="bg-[#0A2213] h-8 w-full"></div>
     </section>
   );
 };
