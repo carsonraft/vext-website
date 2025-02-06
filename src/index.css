@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Enfilade Display';
-  src: url('./EnfiladeTRIALDisplay-Bold.otf') format('opentype');
-  font-weight: bold;
+  font-family: 'EnfiladeTRIALSmall-Regular';
+  src: url('./EnfiladeTRIALSmall-Regular.otf') format('opentype');
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Enfilade Display';
-  src: url('./EnfiladeTRIALDisplay-Regular.otf') format('opentype');
+  font-family: 'EnfiladeTRIALHeadline-Regular';
+  src: url('./EnfiladeTRIALHeadline-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
