@@ -22,6 +22,7 @@ export default {
 				'instrument': ['Instrument Serif', 'serif'],
 				'handjet': ['Handjet', 'cursive'],
 				'enfilade': ['Enfilade Display', 'sans-serif'],
+				'enfilade-headline': ['Enfilade Headline', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
