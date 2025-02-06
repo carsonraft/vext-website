@@ -133,6 +133,10 @@
   filter: url(#green-duotone);
 }
 
+.contrast-120 {
+  filter: contrast(1.2);
+}
+
 .album-cover::before,
 .album-cover::after {
   content: "";

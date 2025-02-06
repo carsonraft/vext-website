@@ -23,9 +23,15 @@ const Featured = () => {
             loading="lazy"
             src="/lovable-uploads/c92449a2-2564-4fcd-afcf-0268325a9b76.png"
             alt="JPEGMAFIA Album Cover"
-            className="w-full h-[400px] object-cover object-[center_85%] scale-125 filter-duotone"
+            className="w-full h-[400px] object-cover object-[center_85%] scale-125 grayscale contrast-120"
           />
           
+          {/* Color overlay */}
+          <div 
+            className="absolute inset-0 bg-[#8cc63f]"
+            style={{ mixBlendMode: 'color' }}
+          />
+
           {/* Pattern overlay */}
           <div 
             className="absolute inset-0 bg-[#8cc63f]/10"
