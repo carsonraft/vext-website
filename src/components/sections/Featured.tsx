@@ -28,13 +28,13 @@ const Featured = () => {
           
           {/* Color overlay */}
           <div 
-            className="absolute inset-0 bg-[#04120B]"
+            className="absolute inset-0 bg-[#04120B]/70"
             style={{ mixBlendMode: 'multiply' }}
           />
 
-          {/* Additional color layer for stronger effect */}
+          {/* Additional color layer for softer effect */}
           <div 
-            className="absolute inset-0 bg-[#04120B]/80"
+            className="absolute inset-0 bg-[#04120B]/60"
             style={{ mixBlendMode: 'color' }}
           />
 
