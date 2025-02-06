@@ -129,8 +129,8 @@
   @apply relative w-full overflow-hidden;
 }
 
-.album-cover img {
-  filter: hue-rotate(120deg) saturate(1.5);
+.filter-duotone {
+  filter: url(#green-duotone);
 }
 
 .album-cover::before,
