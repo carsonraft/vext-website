@@ -8,24 +8,24 @@ const BlastSection = () => {
           <div className="space-y-8 pl-8">
             <div>
               <div className="relative inline-block">
-                <h3 className="inline-block px-4 py-1 rounded-full border-[0.25px] border-white text-[24px] font-bold mb-4 font-enfilade-headline text-white relative z-10">
+                <h3 className="inline-block px-4 py-1 rounded-full border-[0.25px] border-white text-[24px] font-bold mb-4 font-['EnfiladeTRIALHeadline-Regular'] text-white relative z-10">
                   VEXT BLAST
                 </h3>
               </div>
               <div className="-space-y-4">
                 <article className="pl-4 relative">
                   <div className="absolute inset-x-[-100vw] top-2 bottom-2 bg-[#F2FCE2]/5" />
-                  <h4 className="text-[48px] font-semibold font-enfilade-headline text-white uppercase relative">
+                  <h4 className="text-[48px] font-semibold font-['EnfiladeTRIALHeadline-Regular'] text-white uppercase relative">
                     The Rise of Recession Core
                   </h4>
                 </article>
                 <article className="pl-4">
-                  <h4 className="text-[48px] font-semibold font-enfilade-headline text-white uppercase">
+                  <h4 className="text-[48px] font-semibold font-['EnfiladeTRIALHeadline-Regular'] text-white uppercase">
                     The Coquette Effect
                   </h4>
                 </article>
                 <article className="pl-4">
-                  <h4 className="text-[48px] font-semibold font-enfilade-headline text-white uppercase">
+                  <h4 className="text-[48px] font-semibold font-['EnfiladeTRIALHeadline-Regular'] text-white uppercase">
                     Measuring Famous Dick Pics Using Trigonometry
                   </h4>
                 </article>
