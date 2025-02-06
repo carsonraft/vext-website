@@ -8,7 +8,7 @@ const BlastSection = () => {
           <div className="space-y-8 pl-8">
             <div>
               <div className="relative inline-block">
-                <h3 className="inline-block px-4 py-1 rounded-full border-[0.25px] border-white text-[24px] font-bold mb-4 font-['EnfiladeTRIALHeadline-Regular'] text-white relative z-10">
+                <h3 className="inline-block px-4 py-1 rounded-full border-[0.25px] border-white text-[24px] font-instrument mb-4 text-white relative z-10">
                   VEXT BLAST
                 </h3>
               </div>
