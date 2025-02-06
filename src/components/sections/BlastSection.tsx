@@ -16,17 +16,17 @@ const BlastSection = () => {
                 <article className="pl-4 relative">
                   <div className="absolute inset-x-[-100vw] top-2 bottom-2 bg-[#F2FCE2]/5" />
                   <h4 className="text-[48px] font-semibold font-['EnfiladeTRIALSmall-Regular'] text-white uppercase relative">
-                    The Rise of Recession Core
+                    THE RISE OF RECESSION CORE
                   </h4>
                 </article>
                 <article className="pl-4">
                   <h4 className="text-[48px] font-semibold font-['EnfiladeTRIALSmall-Regular'] text-white uppercase">
-                    The Coquette Effect
+                    THE COQUETTE EFFECT
                   </h4>
                 </article>
                 <article className="pl-4">
                   <h4 className="text-[48px] font-semibold font-['EnfiladeTRIALSmall-Regular'] text-white uppercase">
-                    Measuring Famous Dick Pics Using Trigonometry
+                    MEASURING FAMOUS DICK PICS USING TRIGONOMETRY
                   </h4>
                 </article>
               </div>
