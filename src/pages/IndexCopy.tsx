@@ -25,7 +25,7 @@ const IndexCopy = () => {
                   opacity: 0.4
                 }}
               />
-              <h4 className="text-[#333333] mb-4 font-bold relative z-10">Featured Writing</h4>
+              <h4 className="text-[#333333] mb-4 font-bold relative z-10">READ MORE</h4>
               <div className="relative z-10 flex items-center justify-center space-x-4">
                 <span className="text-[#C6FF00] text-2xl">☞</span>
                 <button className="text-3xl font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00] hover:underline">
