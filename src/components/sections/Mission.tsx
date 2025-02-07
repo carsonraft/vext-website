@@ -8,7 +8,7 @@ const Mission = () => {
         <div className="relative inline-block">
           <h2 className="inline-block px-4 py-1 rounded-full border border-white text-[24px] font-instrument">OUR MISSION</h2>
         </div>
-        <p className="text-white text-center font-['Helvetica_Neue'] text-[32px] font-normal leading-[110%] mb-8 mt-8 max-w-[912px] mx-auto px-4">
+        <p className="text-white text-center font-['Helvetica_Neue'] text-[32px] font-normal leading-[110%] mb-16 mt-8 max-w-[912px] mx-auto px-4">
           VEXT is a global next-gen youth media platform that curates an array of
           unexpected content, groundbreaking artistry & reader-submitted work to
           nurture productive discussions among a digital community of progressive
@@ -17,7 +17,7 @@ const Mission = () => {
         <div className="flex items-center justify-center overflow-hidden">
           <button className="relative bg-[#0E370E] border border-[#C6FF00] px-6 py-3 transform -translate-y-[5px] w-full max-w-[912px] mx-auto">
             <div 
-              className="absolute inset-0 inline-flex items-center gap-[13.58px] p-[19.753px_19.753px_9.876px_19.753px]"
+              className="absolute inset-0 inline-flex items-center gap-[13.58px] p-[10px] w-[250px] h-[100px]"
               style={{
                 backgroundImage: `url("/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png")`,
                 backgroundSize: '100% 100%',
