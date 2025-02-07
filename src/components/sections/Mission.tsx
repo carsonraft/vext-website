@@ -15,7 +15,7 @@ const Mission = () => {
           creatives.
         </p>
         <div className="flex items-center justify-center overflow-hidden">
-          <button className="relative bg-[#0E370E] border border-[#C6FF00] px-6 py-3 transform -translate-y-[5px] w-full max-w-[456px] mx-auto">
+          <button className="relative bg-[#0E370E] border border-[#C6FF00] px-6 py-3 transform -translate-y-[5px] w-full max-w-[342px] mx-auto">
             <div 
               className="absolute inset-0 inline-flex items-center gap-[13.58px] p-[10px] w-[250px] h-[100px]"
               style={{
