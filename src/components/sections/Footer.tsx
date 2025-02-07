@@ -11,10 +11,48 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: "Twitter", url: "https://twitter.com/vext_magazine" },
-    { name: "Instagram", url: "https://instagram.com/vext_magazine" },
-    { name: "YouTube", url: "https://youtube.com/vextmag" },
-    { name: "Official Site", url: "https://vextmagazine.com" },
+    { 
+      name: "Tumblr", 
+      url: "https://vextmagazine.tumblr.com",
+      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
+      handle: "vextmagazine",
+      position: "0% 0%"
+    },
+    { 
+      name: "Twitter", 
+      url: "https://twitter.com/vext_magazine",
+      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
+      handle: "@vext_magazine",
+      position: "20% 0%"
+    },
+    { 
+      name: "Instagram", 
+      url: "https://instagram.com/vextmagazine",
+      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
+      handle: "@vextmagazine",
+      position: "40% 0%"
+    },
+    { 
+      name: "TikTok", 
+      url: "https://tiktok.com/@vextmagazine",
+      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
+      handle: "@vextmagazine",
+      position: "60% 0%"
+    },
+    { 
+      name: "YouTube", 
+      url: "https://youtube.com/vextmagazine",
+      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
+      handle: "vextmagazine",
+      position: "80% 0%"
+    },
+    { 
+      name: "Twitch", 
+      url: "https://twitch.tv/vextmagazine",
+      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
+      handle: "@vextmagazine",
+      position: "100% 0%"
+    }
   ];
 
   return (
@@ -33,16 +71,23 @@ const Footer = () => {
             ))}
           </div>
           
-          <div className="flex justify-center gap-8 font-handjet text-xl">
+          <div className="flex justify-center gap-8 items-center">
             {socialLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-gray-300 transition-colors"
+                className="group relative"
+                title={link.handle}
               >
-                {link.name}
+                <div 
+                  className="w-12 h-12 bg-[length:600%] transition-all duration-200 group-hover:opacity-80"
+                  style={{
+                    backgroundImage: `url(${link.image})`,
+                    backgroundPosition: link.position
+                  }}
+                />
               </a>
             ))}
           </div>
