@@ -16,8 +16,8 @@ const Mission = () => {
         </p>
         <div className="flex items-center justify-center">
           <button className="bg-[#011301] border border-[#C6FF00] px-6 py-3">
-            <div className="flex items-center justify-center space-x-4">
-              <span className="text-[#C6FF00] text-[4rem]">☞</span>
+            <div className="flex items-center justify-center space-x-2">
+              <span className="text-[#C6FF00] text-[6rem] font-chivo leading-none">☞</span>
               <a
                 href="#"
                 className="text-[59.258px] font-['EnfiladeTRIALDisplay-Bold'] text-[#C6FF00] hover:underline uppercase leading-[96%] tracking-[0.02em]"

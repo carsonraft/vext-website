@@ -23,6 +23,7 @@ export default {
 				'handjet': ['Handjet', 'cursive'],
 				'enfilade': ['Enfilade Display', 'sans-serif'],
 				'enfilade-headline': ['Enfilade Headline', 'sans-serif'],
+				'chivo': ['Chivo', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
