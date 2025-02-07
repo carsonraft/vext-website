@@ -88,10 +88,10 @@ const Footer = () => {
             ))}
           </div>
 
-          <div className="text-center">
-            <p className="text-gray-400">
-              © VEXT Media 2024 · <a href="mailto:info@vext.media" className="hover:text-white">info@vext.media</a>
-            </p>
+          <div className="flex justify-between items-center text-gray-400">
+            <div className="font-handjet">VEXT MEDIA 2025</div>
+            <p>© VEXT MEDIA</p>
+            <a href="mailto:INFO@VEXTMAGAZINE.COM" className="font-handjet hover:text-white">INFO@VEXTMAGAZINE.COM</a>
           </div>
         </div>
       </div>
