@@ -18,7 +18,7 @@ const Mission = () => {
         <div className="flex items-center justify-center overflow-hidden mt-8 h-[100px]">
           <button className="relative bg-[#1a4d1a] border border-[#C6FF00] px-2 py-1 transform -translate-y-[5px] w-full max-w-[420px] mx-auto">
             <div 
-              className="absolute inset-0 inline-flex items-center gap-[13.58px] p-[6px] w-[200px] h-[80px]"
+              className="absolute inset-0 inline-flex items-center gap-[13.58px] p-[6px] w-full h-[80px]"
               style={{
                 backgroundImage: `url("/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png")`,
                 backgroundSize: '100% 100%',
