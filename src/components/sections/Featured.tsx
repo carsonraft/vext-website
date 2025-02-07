@@ -55,7 +55,7 @@ const Featured = () => {
           </div>
         </div>
       </div>
-      <div className="h-8 w-full"></div>
+      <div className="bg-[#04120B] h-8 w-full"></div>
     </section>
   );
 };
