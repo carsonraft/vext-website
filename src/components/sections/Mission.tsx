@@ -3,7 +3,7 @@ import React from "react";
 
 const Mission = () => {
   return (
-    <section className="bg-black text-white py-16">
+    <section className="bg-[#04120B] text-white py-16">
       <div className="container mx-auto px-4 text-center max-w-3xl">
         <div className="relative inline-block">
           <h2 className="inline-block px-4 py-1 rounded-full border border-white text-[24px] font-instrument">OUR MISSION</h2>
@@ -26,3 +26,4 @@ const Mission = () => {
 };
 
 export default Mission;
+
