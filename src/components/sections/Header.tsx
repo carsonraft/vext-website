@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const Header = () => {
@@ -20,11 +21,11 @@ const Header = () => {
             className="h-12 self-start"
           />
           <nav className="flex items-center space-x-8">
-            <div className="text-lg font-bold font-instrument text-[#C6FF00]">EXPLORE:</div>
+            <div className="text-xl font-bold font-instrument text-[#C6FF00]">EXPLORE:</div>
             <ul className="flex items-center space-x-6">
               {exploreItems.map((item) => (
                 <li key={item}>
-                  <button className="text-xl uppercase hover:text-gray-300 transition-colors font-handjet">
+                  <button className="text-lg uppercase hover:text-gray-300 transition-colors font-handjet">
                     {item}
                   </button>
                 </li>
