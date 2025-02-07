@@ -11,8 +11,8 @@ const Mission = () => {
         <p className="text-white text-center font-['Helvetica_Neue'] text-[30px] font-normal leading-[110%] mt-8 max-w-[912px] mx-auto px-4">
           VEXT is a global next-gen youth media platform that curates an array of
           unexpected content, groundbreaking artistry & reader-submitted work to
-          nurture productive discussions among a digital community of progressive
-          creatives.
+          nurture productive discussions among a{" "}
+          digital community of progressive creatives.
         </p>
         <div className="flex items-center justify-center overflow-hidden">
           <button className="relative bg-[#0E370E] border border-[#C6FF00] px-6 py-3 transform -translate-y-[5px] w-full max-w-[342px] mx-auto">
