@@ -6,7 +6,7 @@ const Mission = () => {
     <section className="bg-[#04120B] text-white py-8 w-full">
       <div className="w-full px-4 text-center">
         <div className="relative inline-block">
-          <h2 className="inline-block px-4 py-1 rounded-full border border-white text-[24px] font-instrument">OUR MISSION</h2>
+          <h2 className="inline-block px-4 py-0 rounded-full border border-white text-[24px] font-instrument">OUR MISSION</h2>
         </div>
         <p className="text-white text-center font-['Helvetica_Neue'] text-[30px] font-normal leading-[110%] mt-8 mb-12 max-w-[912px] mx-auto px-4">
           VEXT is a global next-gen youth media platform that curates an array of
