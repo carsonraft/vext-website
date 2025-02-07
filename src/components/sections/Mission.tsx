@@ -14,14 +14,18 @@ const Mission = () => {
           nurture productive discussions among a digital community of progressive
           creatives.
         </p>
-        <div className="flex items-center justify-center space-x-4">
-          <span className="text-[#C6FF00] text-2xl">☞</span>
-          <a
-            href="#"
-            className="text-xl font-enfilade text-[#C6FF00] hover:underline"
-          >
-            BECOME A VEXT CREATOR
-          </a>
+        <div className="flex items-center justify-center">
+          <button className="bg-[#011301] border border-[#C6FF00] px-6 py-3">
+            <div className="flex items-center justify-center space-x-4">
+              <span className="text-[#C6FF00] text-2xl">☞</span>
+              <a
+                href="#"
+                className="text-xl font-enfilade text-[#C6FF00] hover:underline"
+              >
+                BECOME A VEXT CREATOR
+              </a>
+            </div>
+          </button>
         </div>
       </div>
     </section>
