@@ -5,6 +5,7 @@ import Featured from "@/components/sections/Featured";
 import BlastSection from "@/components/sections/BlastSection";
 import Mission from "@/components/sections/Mission";
 import Footer from "@/components/sections/Footer";
+import CreatorCTA from "@/components/sections/CreatorCTA";
 
 const IndexCopy = () => {
   return (
@@ -13,6 +14,14 @@ const IndexCopy = () => {
       <main className="w-full">
         <Featured />
         <BlastSection />
+        <CreatorCTA />
+        <section className="bg-[#04120B] py-16">
+          <div className="container mx-auto px-4">
+            <h2 className="text-[#C6FF00] text-3xl font-['EnfiladeTRIALHeadline-Bold'] text-center mb-8">
+              ALL OUR WRITING
+            </h2>
+          </div>
+        </section>
         <Mission />
       </main>
       <Footer />
@@ -21,3 +30,4 @@ const IndexCopy = () => {
 };
 
 export default IndexCopy;
+
