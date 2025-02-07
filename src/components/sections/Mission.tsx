@@ -3,7 +3,7 @@ import React from "react";
 
 const Mission = () => {
   return (
-    <section className="bg-[#04120B] text-white py-16 w-full">
+    <section className="bg-[#04120B] text-white py-8 w-full">
       <div className="w-full px-4 text-center">
         <div className="relative inline-block">
           <h2 className="inline-block px-4 py-1 rounded-full border border-white text-[24px] font-instrument">OUR MISSION</h2>
