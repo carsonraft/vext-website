@@ -16,9 +16,9 @@ const Mission = () => {
           digital community of progressive creatives.
         </p>
         <div className="flex items-center justify-center overflow-hidden mt-8">
-          <button className="relative bg-[#1a4d1a] border border-[#C6FF00] px-4 py-2 transform -translate-y-[5px] w-full max-w-[420px] mx-auto">
+          <button className="relative bg-[#1a4d1a] border border-[#C6FF00] px-2 py-1 transform -translate-y-[5px] w-full max-w-[420px] mx-auto">
             <div 
-              className="absolute inset-0 inline-flex items-center gap-[13.58px] p-[10px] w-[250px] h-[100px]"
+              className="absolute inset-0 inline-flex items-center gap-[13.58px] p-[6px] w-[200px] h-[80px]"
               style={{
                 backgroundImage: `url("/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png")`,
                 backgroundSize: '100% 100%',
@@ -27,8 +27,8 @@ const Mission = () => {
               }}
             />
             <div className="flex items-center justify-center space-x-2 relative z-10">
-              <span className="text-[#C6FF00] text-[6rem] font-chivo leading-none">☞</span>
-              <span className="text-[59.258px] font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00] uppercase leading-[96%] tracking-[0.02em]">
+              <span className="text-[#C6FF00] text-[5rem] font-chivo leading-none">☞</span>
+              <span className="text-[50px] font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00] uppercase leading-[96%] tracking-[0.02em]">
                 BECOME A VEXT CREATOR
               </span>
             </div>
