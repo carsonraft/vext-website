@@ -27,7 +27,7 @@ const BlastSection = () => {
                 </article>
                 <article className="pl-4">
                   <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white uppercase">
-                    MEASURING FAMOUS DICK PICS USING TRIGONOMETRY
+                    MY GIRLFRIEND'S HUSBAND'S CYBERTRUCK REVIEW
                   </h4>
                 </article>
               </div>
@@ -52,4 +52,3 @@ const BlastSection = () => {
 };
 
 export default BlastSection;
-
