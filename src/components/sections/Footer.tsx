@@ -11,6 +11,7 @@ const Footer = () => {
   ];
 
   const socialIcons = "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png";
+  const vextLogo = "/lovable-uploads/048d2e7a-087a-41f1-b355-f0cc7982cc25.png";
   
   const socialLinks = [
     { 
@@ -71,7 +72,7 @@ const Footer = () => {
 
           <div className="flex justify-between items-center text-gray-400">
             <div className="font-handjet">VEXT MEDIA 2025</div>
-            <p>© VEXT MEDIA</p>
+            <img src={vextLogo} alt="VEXT" className="h-6" />
             <a href="mailto:INFO@VEXTMAGAZINE.COM" className="font-handjet hover:text-white">INFO@VEXTMAGAZINE.COM</a>
           </div>
         </div>
