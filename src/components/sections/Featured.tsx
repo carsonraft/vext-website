@@ -1,46 +1,34 @@
+
 import React from "react";
 
 const Featured = () => {
   return (
     <section className="relative w-full">
-      {/* SVG Filter Definition */}
-      <svg width="0" height="0" className="hidden">
-        <filter id="green-duotone">
-          <feColorMatrix
-            type="matrix"
-            values="0.33 0.33 0.33 0 0  
-                    0.67 0.67 0.67 0 0.6  
-                    0.2 0.2 0.2 0 0  
-                    0 0 0 1 0"
-          />
-        </filter>
-      </svg>
-
       <div className="w-full">
         <div className="album-cover relative">
-          {/* Base image layer */}
+          {/* Base image layer with grayscale filter */}
           <img
             loading="lazy"
             src="/lovable-uploads/c92449a2-2564-4fcd-afcf-0268325a9b76.png"
             alt="JPEGMAFIA Album Cover"
-            className="w-full h-[400px] object-cover object-[center_85%] scale-125"
+            className="w-full h-[400px] object-cover object-[center_85%] scale-125 grayscale"
           />
           
-          {/* Color overlay */}
+          {/* Acid green overlay */}
           <div 
-            className="absolute inset-0 bg-[#04120B]/70"
-            style={{ mixBlendMode: 'multiply' }}
+            className="absolute inset-0 bg-[#C6FF00]"
+            style={{ mixBlendMode: 'soft-light' }}
           />
 
-          {/* Additional color layer for softer effect */}
+          {/* Additional darkening layer for better contrast */}
           <div 
-            className="absolute inset-0 bg-[#04120B]/60"
-            style={{ mixBlendMode: 'color' }}
+            className="absolute inset-0 bg-black/30"
+            style={{ mixBlendMode: 'multiply' }}
           />
 
           {/* Pattern overlay */}
           <div 
-            className="absolute inset-0 bg-[#8cc63f]/10"
+            className="absolute inset-0"
             style={{
               backgroundImage: `url("/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png")`,
               backgroundSize: '100% 100%',
