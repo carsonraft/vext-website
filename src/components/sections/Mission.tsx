@@ -8,7 +8,7 @@ const Mission = () => {
         <div className="relative inline-block">
           <h2 className="inline-block px-4 py-1 rounded-full border border-white text-[24px] font-instrument">OUR MISSION</h2>
         </div>
-        <p className="text-white text-center font-['Helvetica_Neue'] text-[32px] font-normal leading-[110%] mb-8 mt-8">
+        <p className="text-white text-center font-['Helvetica_Neue'] text-[32px] font-normal leading-[110%] mb-8 mt-8 w-[912px] mx-auto">
           VEXT is a global next-gen youth media platform that curates an array of
           unexpected content, groundbreaking artistry & reader-submitted work to
           nurture productive discussions among a digital community of progressive
