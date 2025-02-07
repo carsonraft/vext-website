@@ -21,7 +21,7 @@ const Header = () => {
             className="h-12 self-start"
           />
           <nav className="flex items-center space-x-8">
-            <div className="text-xl font-bold font-instrument text-[#C6FF00]">EXPLORE:</div>
+            <div className="text-xl text-[#C6FF00] font-instrument">EXPLORE:</div>
             <ul className="flex items-center space-x-6">
               {exploreItems.map((item) => (
                 <li key={item}>
@@ -42,3 +42,4 @@ const Header = () => {
 };
 
 export default Header;
+
