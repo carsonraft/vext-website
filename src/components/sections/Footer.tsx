@@ -10,7 +10,15 @@ const Footer = () => {
     "TRANSPARENCY",
   ];
 
-  const socialIcons = "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png";
+  const socialIcons = {
+    Tumblr: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-tumblr.png",
+    Twitter: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-twitter.png", 
+    Instagram: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-instagram.png",
+    TikTok: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-tiktok.png",
+    YouTube: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-youtube.png",
+    Twitch: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-twitch.png"
+  };
+  
   const vextLogo = "/lovable-uploads/048d2e7a-087a-41f1-b355-f0cc7982cc25.png";
   
   const socialLinks = [
@@ -50,12 +58,22 @@ const Footer = () => {
     <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-4">
         <div className="grid gap-0">
-          <div className="flex justify-center">
-            <img 
-              src={socialIcons} 
-              alt="Social Media Icons"
-              className="h-16 w-auto transition-opacity duration-200 hover:opacity-80"
-            />
+          <div className="flex justify-center gap-4">
+            {socialLinks.map((social) => (
+              <a 
+                key={social.name}
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-opacity duration-200 hover:opacity-80"
+              >
+                <img 
+                  src={socialIcons[social.name as keyof typeof socialIcons]} 
+                  alt={`${social.name} Icon`}
+                  className="h-8 w-8"
+                />
+              </a>
+            ))}
           </div>
 
           <div className="flex flex-wrap justify-center gap-8 font-handjet text-xl">
