@@ -11,12 +11,12 @@ const Footer = () => {
   ];
 
   const socialIcons = {
-    Tumblr: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-tumblr.png",
-    Twitter: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-twitter.png", 
-    Instagram: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-instagram.png",
-    TikTok: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-tiktok.png",
-    YouTube: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-youtube.png",
-    Twitch: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3-twitch.png"
+    Tumblr: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png",
+    Twitter: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png", 
+    Instagram: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png",
+    TikTok: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png",
+    YouTube: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png",
+    Twitch: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png"
   };
   
   const vextLogo = "/lovable-uploads/048d2e7a-087a-41f1-b355-f0cc7982cc25.png";
