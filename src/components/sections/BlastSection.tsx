@@ -9,7 +9,7 @@ const BlastSection = () => {
           <div className="space-y-8 pl-8">
             <div>
               <div className="relative inline-block">
-                <h3 className="inline-block px-2 py-0.5 rounded-full border-[0.25px] border-white text-[24px] font-instrument mb-4 text-white relative z-10">
+                <h3 className="inline-block px-3 py-0.5 rounded-full border-[0.25px] border-white text-[24px] font-instrument mb-4 text-white relative z-10">
                   VEXT BLAST
                 </h3>
               </div>
@@ -52,3 +52,4 @@ const BlastSection = () => {
 };
 
 export default BlastSection;
+
