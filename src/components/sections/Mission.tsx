@@ -15,7 +15,7 @@ const Mission = () => {
           creatives.
         </p>
         <div className="flex items-center justify-center">
-          <button className="relative bg-[#0E370E] border border-[#C6FF00] px-6 py-3 overflow-hidden">
+          <button className="relative bg-[#0E370E] border border-[#C6FF00] px-6 py-3 overflow-hidden transform -translate-y-[5px]">
             {/* Pattern overlay */}
             <div 
               className="absolute inset-0"
