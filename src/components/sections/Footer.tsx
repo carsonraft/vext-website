@@ -71,9 +71,9 @@ const Footer = () => {
           </div>
 
           <div className="flex justify-center items-center gap-4">
-            <div className="font-handjet text-white text-center flex-1 text-right">VEXT MEDIA 2025</div>
+            <div className="font-handjet text-white text-xl flex-1 text-right">VEXT MEDIA 2025</div>
             <img src={vextLogo} alt="VEXT" className="h-[144px] w-[216px]" />
-            <a href="mailto:INFO@VEXTMAGAZINE.COM" className="font-handjet text-white flex-1 text-left hover:opacity-80 transition-opacity">INFO@VEXTMAGAZINE.COM</a>
+            <a href="mailto:INFO@VEXTMAGAZINE.COM" className="font-handjet text-white text-xl flex-1 text-left hover:opacity-80 transition-opacity">INFO@VEXTMAGAZINE.COM</a>
           </div>
         </div>
       </div>
