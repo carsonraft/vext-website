@@ -48,8 +48,7 @@ const Featured = () => {
                 JPEGMAFIA: TO SERVE & PROTECT
               </h2>
               <p className="font-handjet text-base leading-[17.6px]">
-                <span className="text-[#C6FF00]">By Sandra Song</span>{" "}
-                <span className="text-white">vext.media/jpegmafia-2024</span>
+                <span className="text-[#C6FF00]">By Sandra Song</span>
               </p>
             </div>
           </div>
