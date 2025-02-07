@@ -15,7 +15,7 @@ const Mission = () => {
           <br />
           digital community of progressive creatives.
         </p>
-        <div className="flex items-center justify-center overflow-hidden mt-8">
+        <div className="flex items-center justify-center overflow-hidden mt-8 h-[100px]">
           <button className="relative bg-[#1a4d1a] border border-[#C6FF00] px-2 py-1 transform -translate-y-[5px] w-full max-w-[420px] mx-auto">
             <div 
               className="absolute inset-0 inline-flex items-center gap-[13.58px] p-[6px] w-[200px] h-[80px]"
