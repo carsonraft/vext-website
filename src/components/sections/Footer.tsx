@@ -53,7 +53,7 @@ const Footer = () => {
             <img 
               src={socialIcons} 
               alt="Social Media Icons"
-              className="h-16 transition-opacity duration-200 hover:opacity-80"
+              className="h-24 transition-opacity duration-200 hover:opacity-80"
             />
           </div>
 
