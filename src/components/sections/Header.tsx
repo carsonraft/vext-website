@@ -1,5 +1,6 @@
 
 import React from "react";
+import { ShoppingBag } from "lucide-react";
 
 const Header = () => {
   const exploreItems = [
@@ -32,6 +33,12 @@ const Header = () => {
               ))}
               <li>
                 <button className="text-lg font-handjet">&gt;&gt;</button>
+              </li>
+              <li>
+                <button className="flex items-center space-x-2 text-lg uppercase hover:text-gray-300 transition-colors font-handjet">
+                  <ShoppingBag className="w-5 h-5" />
+                  <span>Shop</span>
+                </button>
               </li>
             </ul>
           </nav>
