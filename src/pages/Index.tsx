@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "@/components/sections/Header";
 import Featured from "@/components/sections/Featured";
@@ -9,9 +10,9 @@ import Footer from "@/components/sections/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="w-full min-h-screen bg-white">
       <Header />
-      <main>
+      <main className="w-full">
         <Featured />
         <BlastSection />
         <Mission />
