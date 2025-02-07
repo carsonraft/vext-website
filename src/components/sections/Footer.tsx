@@ -10,46 +10,42 @@ const Footer = () => {
     "Transparency",
   ];
 
+  const socialIconsSprite = "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png";
+  
   const socialLinks = [
     { 
       name: "Tumblr", 
       url: "https://vextmagazine.tumblr.com",
-      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
       handle: "vextmagazine",
       position: "0% 0%"
     },
     { 
       name: "Twitter", 
       url: "https://twitter.com/vext_magazine",
-      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
       handle: "@vext_magazine",
       position: "20% 0%"
     },
     { 
       name: "Instagram", 
       url: "https://instagram.com/vextmagazine",
-      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
       handle: "@vextmagazine",
       position: "40% 0%"
     },
     { 
       name: "TikTok", 
       url: "https://tiktok.com/@vextmagazine",
-      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
       handle: "@vextmagazine",
       position: "60% 0%"
     },
     { 
       name: "YouTube", 
       url: "https://youtube.com/vextmagazine",
-      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
       handle: "vextmagazine",
       position: "80% 0%"
     },
     { 
       name: "Twitch", 
       url: "https://twitch.tv/vextmagazine",
-      image: "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png",
       handle: "@vextmagazine",
       position: "100% 0%"
     }
@@ -59,18 +55,6 @@ const Footer = () => {
     <footer className="bg-black text-white py-16">
       <div className="container mx-auto px-4">
         <div className="grid gap-8">
-          <div className="flex flex-wrap justify-center gap-8 font-handjet text-xl">
-            {links.map((link) => (
-              <a
-                key={link}
-                href="#"
-                className="hover:text-gray-300 transition-colors"
-              >
-                {link}
-              </a>
-            ))}
-          </div>
-          
           <div className="flex justify-center gap-8 items-center">
             {socialLinks.map((link) => (
               <a
@@ -84,10 +68,22 @@ const Footer = () => {
                 <div 
                   className="w-12 h-12 bg-[length:600%] transition-all duration-200 group-hover:opacity-80"
                   style={{
-                    backgroundImage: `url(${link.image})`,
+                    backgroundImage: `url(${socialIconsSprite})`,
                     backgroundPosition: link.position
                   }}
                 />
+              </a>
+            ))}
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-8 font-handjet text-xl">
+            {links.map((link) => (
+              <a
+                key={link}
+                href="#"
+                className="hover:text-gray-300 transition-colors"
+              >
+                {link}
               </a>
             ))}
           </div>
