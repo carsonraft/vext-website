@@ -24,6 +24,15 @@
 }
 
 @layer base {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
@@ -284,5 +293,3 @@
 .footer-social a {
   @apply text-gray-600 no-underline mx-2 hover:text-white transition-colors;
 }
-
-
