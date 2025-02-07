@@ -16,37 +16,37 @@ const Footer = () => {
     { 
       name: "Tumblr", 
       url: "https://vextmagazine.tumblr.com",
-      handle: "vextmagazine",
+      handle: "VEXTMAGAZINE",
       position: "0% 0%"
     },
     { 
       name: "Twitter", 
       url: "https://twitter.com/vext_magazine",
-      handle: "@vext_magazine",
+      handle: "@VEXT_MAGAZINE",
       position: "20% 0%"
     },
     { 
       name: "Instagram", 
       url: "https://instagram.com/vextmagazine",
-      handle: "@vextmagazine",
+      handle: "@VEXTMAGAZINE",
       position: "40% 0%"
     },
     { 
       name: "TikTok", 
       url: "https://tiktok.com/@vextmagazine",
-      handle: "@vextmagazine",
+      handle: "@VEXTMAGAZINE",
       position: "60% 0%"
     },
     { 
       name: "YouTube", 
       url: "https://youtube.com/vextmagazine",
-      handle: "vextmagazine",
+      handle: "VEXTMAGAZINE",
       position: "80% 0%"
     },
     { 
       name: "Twitch", 
       url: "https://twitch.tv/vextmagazine",
-      handle: "@vextmagazine",
+      handle: "@VEXTMAGAZINE",
       position: "100% 0%"
     }
   ];
