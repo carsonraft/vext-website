@@ -20,7 +20,7 @@ const IndexCopy = () => {
                 className="absolute inset-0"
                 style={{
                   backgroundImage: `url("/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png")`,
-                  backgroundSize: '100% 100%',
+                  backgroundSize: '40% 100%',
                   mixBlendMode: 'multiply',
                   opacity: 0.4
                 }}
