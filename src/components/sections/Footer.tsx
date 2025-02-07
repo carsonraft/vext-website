@@ -3,11 +3,11 @@ import React from "react";
 
 const Footer = () => {
   const links = [
-    "Careers",
-    "Business opportunities",
-    "Media partnerships",
-    "Our Mission",
-    "Transparency",
+    "CAREERS",
+    "BUSINESS OPPORTUNITIES", 
+    "MEDIA PARTNERSHIPS",
+    "OUR MISSION",
+    "TRANSPARENCY",
   ];
 
   const socialIconsSprite = "/lovable-uploads/46a6b3fb-dee1-4398-8bf1-9230542de1e3.png";
