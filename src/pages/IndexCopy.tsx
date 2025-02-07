@@ -15,24 +15,26 @@ const IndexCopy = () => {
         <BlastSection />
         <section className="bg-[#04120B] py-16">
           <div className="container mx-auto px-4">
-            <div className="w-[40%] mx-auto relative bg-[#0E370E] text-white p-8 border border-[#C6FF00]">
-              <div 
-                className="absolute inset-0"
-                style={{
-                  backgroundImage: `url("/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png")`,
-                  backgroundSize: '100%',
-                  backgroundPosition: 'center 10%',
-                  backgroundRepeat: 'no-repeat',
-                  mixBlendMode: 'multiply',
-                  opacity: 0.4
-                }}
-              />
-              <div className="relative z-10 flex items-center justify-center">
-                <button className="text-6xl font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00] hover:underline">
-                  ALL OUR WRITING
-                </button>
+            <a href="/writing" className="block">
+              <div className="w-[40%] mx-auto relative bg-[#0E370E] text-white p-8 border border-[#C6FF00]">
+                <div 
+                  className="absolute inset-0"
+                  style={{
+                    backgroundImage: `url("/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png")`,
+                    backgroundSize: '100%',
+                    backgroundPosition: 'center 10%',
+                    backgroundRepeat: 'no-repeat',
+                    mixBlendMode: 'multiply',
+                    opacity: 0.4
+                  }}
+                />
+                <div className="relative z-10 flex items-center justify-center">
+                  <span className="text-6xl font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00]">
+                    ALL OUR WRITING
+                  </span>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </section>
         <Mission />
