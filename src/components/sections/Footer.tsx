@@ -54,7 +54,7 @@ const Footer = () => {
             <img 
               src={socialIcons} 
               alt="Social Media Icons"
-              className="h-96 transition-opacity duration-200 hover:opacity-80"
+              className="h-24 transition-opacity duration-200 hover:opacity-80"
             />
           </div>
 
@@ -72,7 +72,7 @@ const Footer = () => {
 
           <div className="flex justify-between items-center text-gray-400">
             <div className="font-handjet">VEXT MEDIA 2025</div>
-            <img src={vextLogo} alt="VEXT" className="w-36 h-24" />
+            <img src={vextLogo} alt="VEXT" className="h-6" />
             <a href="mailto:INFO@VEXTMAGAZINE.COM" className="font-handjet hover:text-white">INFO@VEXTMAGAZINE.COM</a>
           </div>
         </div>
