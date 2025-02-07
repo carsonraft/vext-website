@@ -70,10 +70,10 @@ const Footer = () => {
             ))}
           </div>
 
-          <div className="flex justify-between items-center text-gray-400">
-            <div className="font-handjet">VEXT MEDIA 2025</div>
-            <img src={vextLogo} alt="VEXT" className="h-[96px] w-[144px]" />
-            <a href="mailto:INFO@VEXTMAGAZINE.COM" className="font-handjet hover:text-white">INFO@VEXTMAGAZINE.COM</a>
+          <div className="flex justify-between items-center">
+            <div className="font-handjet text-white w-1/3 text-center">VEXT MEDIA 2025</div>
+            <img src={vextLogo} alt="VEXT" className="h-[144px] w-[216px]" />
+            <a href="mailto:INFO@VEXTMAGAZINE.COM" className="font-handjet text-white w-1/3 text-center hover:opacity-80 transition-opacity">INFO@VEXTMAGAZINE.COM</a>
           </div>
         </div>
       </div>
@@ -82,3 +82,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
