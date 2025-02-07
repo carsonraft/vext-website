@@ -16,9 +16,8 @@ const Mission = () => {
         </p>
         <div className="flex items-center justify-center">
           <button className="relative bg-[#0E370E] border border-[#C6FF00] px-6 py-3 overflow-hidden transform -translate-y-[5px]">
-            {/* Pattern overlay */}
             <div 
-              className="absolute inset-0"
+              className="absolute inset-0 inline-flex items-center gap-[13.58px] p-[19.753px_19.753px_9.876px_19.753px]"
               style={{
                 backgroundImage: `url("/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png")`,
                 backgroundSize: '100% 100%',
