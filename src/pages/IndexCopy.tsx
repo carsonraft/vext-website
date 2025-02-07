@@ -27,7 +27,7 @@ const IndexCopy = () => {
               />
               <div className="relative z-10 flex items-center justify-center space-x-4">
                 <span className="text-[#C6FF00] text-2xl">☞</span>
-                <button className="text-3xl font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00] hover:underline">
+                <button className="text-6xl font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00] hover:underline">
                   ALL OUR WRITING
                 </button>
               </div>
