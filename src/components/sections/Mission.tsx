@@ -15,15 +15,22 @@ const Mission = () => {
           creatives.
         </p>
         <div className="flex items-center justify-center">
-          <button className="bg-[#011301] border border-[#C6FF00] px-6 py-3">
-            <div className="flex items-center justify-center space-x-2">
+          <button className="relative bg-[#0E370E] border border-[#C6FF00] px-6 py-3 overflow-hidden">
+            {/* Pattern overlay */}
+            <div 
+              className="absolute inset-0"
+              style={{
+                backgroundImage: `url("/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png")`,
+                backgroundSize: '100% 100%',
+                mixBlendMode: 'multiply',
+                opacity: 0.7
+              }}
+            />
+            <div className="flex items-center justify-center space-x-2 relative z-10">
               <span className="text-[#C6FF00] text-[6rem] font-chivo leading-none">☞</span>
-              <a
-                href="#"
-                className="text-[59.258px] font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00] uppercase leading-[96%] tracking-[0.02em]"
-              >
+              <span className="text-[59.258px] font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00] uppercase leading-[96%] tracking-[0.02em]">
                 BECOME A VEXT CREATOR
-              </a>
+              </span>
             </div>
           </button>
         </div>
