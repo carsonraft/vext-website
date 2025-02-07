@@ -22,12 +22,12 @@ const BlastSection = () => {
                 </article>
                 <article className="pl-4">
                   <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
-                    THE COQUETTE EFFECT
+                    MY GIRLFRIEND'S HUSBAND'S CYBERTRUCK REVIEW
                   </h4>
                 </article>
                 <article className="pl-4">
                   <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
-                    MY GIRLFRIEND'S HUSBAND'S CYBERTRUCK REVIEW
+                    THE COQUETTE EFFECT
                   </h4>
                 </article>
               </div>
