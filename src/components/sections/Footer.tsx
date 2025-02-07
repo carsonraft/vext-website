@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const Footer = () => {
@@ -20,7 +21,7 @@ const Footer = () => {
     <footer className="bg-black text-white py-16">
       <div className="container mx-auto px-4">
         <div className="grid gap-8">
-          <div className="flex flex-wrap justify-center gap-8">
+          <div className="flex flex-wrap justify-center gap-8 font-handjet text-xl">
             {links.map((link) => (
               <a
                 key={link}
@@ -32,7 +33,7 @@ const Footer = () => {
             ))}
           </div>
           
-          <div className="flex justify-center gap-8">
+          <div className="flex justify-center gap-8 font-handjet text-xl">
             {socialLinks.map((link) => (
               <a
                 key={link.name}
