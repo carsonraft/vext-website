@@ -14,9 +14,9 @@ const Featured = () => {
             className="w-full h-[400px] object-cover object-[center_85%] scale-125 grayscale"
           />
           
-          {/* Acid green overlay */}
+          {/* Dark green overlay */}
           <div 
-            className="absolute inset-0 bg-[#C6FF00]"
+            className="absolute inset-0 bg-[#1B5512]"
             style={{ mixBlendMode: 'soft-light' }}
           />
 
@@ -61,3 +61,4 @@ const Featured = () => {
 };
 
 export default Featured;
+
