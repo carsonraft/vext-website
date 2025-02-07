@@ -9,6 +9,7 @@ const Header = () => {
     "Lifestyle",
     "Society",
     "Creators",
+    "Shop",
   ];
 
   return (
@@ -26,19 +27,20 @@ const Header = () => {
             <ul className="flex items-center space-x-6">
               {exploreItems.map((item) => (
                 <li key={item}>
-                  <button className="text-lg uppercase hover:text-gray-300 transition-colors font-handjet">
-                    {item}
-                  </button>
+                  {item === "Shop" ? (
+                    <button className="flex items-center space-x-2 text-lg uppercase hover:text-gray-300 transition-colors font-handjet">
+                      <ShoppingBag className="w-5 h-5" />
+                      <span>{item}</span>
+                    </button>
+                  ) : (
+                    <button className="text-lg uppercase hover:text-gray-300 transition-colors font-handjet">
+                      {item}
+                    </button>
+                  )}
                 </li>
               ))}
               <li>
                 <button className="text-lg font-handjet">&gt;&gt;</button>
-              </li>
-              <li>
-                <button className="flex items-center space-x-2 text-lg uppercase hover:text-gray-300 transition-colors font-handjet">
-                  <ShoppingBag className="w-5 h-5" />
-                  <span>Shop</span>
-                </button>
               </li>
             </ul>
           </nav>
@@ -49,4 +51,3 @@ const Header = () => {
 };
 
 export default Header;
-
