@@ -15,9 +15,14 @@ const IndexCopy = () => {
         <BlastSection />
         <section className="bg-[#04120B] py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-[#C6FF00] text-3xl font-['EnfiladeTRIALHeadline-Bold'] text-center mb-8">
-              ALL OUR WRITING
-            </h2>
+            <div className="relative bg-black text-white p-8 rounded-lg">
+              <div className="relative z-10 flex items-center justify-center space-x-4">
+                <span className="text-[#C6FF00] text-2xl">☞</span>
+                <button className="text-3xl font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00] hover:underline">
+                  ALL OUR WRITING
+                </button>
+              </div>
+            </div>
           </div>
         </section>
         <Mission />
