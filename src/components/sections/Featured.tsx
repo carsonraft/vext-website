@@ -17,7 +17,7 @@ const Featured = () => {
           {/* Dark green overlay with increased saturation */}
           <div 
             className="absolute inset-0 bg-[#1B5512]"
-            style={{ mixBlendMode: 'hard-light', opacity: 0.8 }}
+            style={{ mixBlendMode: 'hard-light', opacity: 0.9 }}
           />
 
           {/* Additional darkening layer for better contrast */}
@@ -61,4 +61,3 @@ const Featured = () => {
 };
 
 export default Featured;
-
