@@ -15,7 +15,7 @@ const IndexCopy = () => {
         <BlastSection />
         <section className="bg-[#04120B] py-16">
           <div className="container mx-auto px-4">
-            <div className="relative bg-[#0E370E] text-white p-8 border-2 border-[#C6FF00]">
+            <div className="w-[40%] mx-auto relative bg-[#0E370E] text-white p-8 border-2 border-[#C6FF00]">
               <div 
                 className="absolute inset-0"
                 style={{
