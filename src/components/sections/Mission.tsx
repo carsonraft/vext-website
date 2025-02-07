@@ -20,7 +20,7 @@ const Mission = () => {
               <span className="text-[#C6FF00] text-2xl">☞</span>
               <a
                 href="#"
-                className="text-xl font-enfilade-headline text-[#C6FF00] hover:underline"
+                className="text-xl font-enfilade text-[#C6FF00] hover:underline"
               >
                 BECOME A VEXT CREATOR
               </a>
