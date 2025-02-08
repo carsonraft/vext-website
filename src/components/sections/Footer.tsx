@@ -23,22 +23,18 @@ const Footer = () => {
     { 
       name: "Instagram", 
       url: "https://www.instagram.com/vextmagazine/",
-      handle: "vextmagazine",
     },
     { 
       name: "TikTok", 
       url: "https://www.tiktok.com/@vextmagazine",
-      handle: "vextmagazine",
     },
     { 
       name: "Tumblr", 
       url: "https://www.tumblr.com/vextmagazine",
-      handle: "vextmagazine",
     },
     { 
       name: "Twitch", 
       url: "https://www.twitch.tv/vextmagazine", 
-      handle: "vextmagazine",
     }
   ];
 
@@ -56,7 +52,7 @@ const Footer = () => {
 
           <div className="flex justify-center gap-12">
             {socialLinks.map((social) => (
-              <div key={social.name} className="flex flex-col items-center gap-2">
+              <div key={social.name} className="flex flex-col items-center">
                 <a 
                   href={social.url}
                   target="_blank"
@@ -68,14 +64,6 @@ const Footer = () => {
                     alt={`${social.name} Icon`}
                     className="h-8 w-8"
                   />
-                </a>
-                <a 
-                  href={social.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#C6FF00] text-sm hover:opacity-80 transition-opacity"
-                >
-                  {social.handle}
                 </a>
               </div>
             ))}
@@ -111,4 +99,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
