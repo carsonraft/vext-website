@@ -1,4 +1,3 @@
-
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -41,7 +40,7 @@ const Sample = () => {
               </div>
             </div>
             
-            <div className="px-8 pb-24">
+            <div className="px-8 pb-12">
               <div className="prose prose-invert max-w-none mt-8">
                 <article className="space-y-6 text-lg font-handjet leading-relaxed">
                   <p>
