@@ -31,16 +31,7 @@ const Sample = () => {
               </div>
             </div>
             
-            <div className="px-8 pt-32">
-              <div className="bg-[#403E43] p-6 rounded-lg">
-                <h2 className="text-2xl font-['EnfiladeTRIALHeadline-Bold'] mb-4">
-                  Latest Release
-                </h2>
-                <div className="aspect-video bg-black rounded-lg flex items-center justify-center">
-                  <p className="text-gray-400">Video Player Placeholder</p>
-                </div>
-              </div>
-              
+            <div className="px-8">
               <div className="prose prose-invert max-w-none mt-8">
                 <article className="space-y-6 text-lg font-handjet leading-relaxed">
                   <p>
