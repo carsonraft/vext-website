@@ -59,15 +59,19 @@ const Sample = () => {
                   </div>
                   
                   <p>
-                    Class proin odio, fringilla ante elit ullamcorper. Magna ullamcorper quisque habitant accumsan nisl pretium primis. Rutrum egestas parturient vitae lorem neque torquent purus odio. Aenean parturient pretium felis sollicitudin nec maecenas mattis montes. Litora etiam suscipit sapien posuere libero netus ipsum. Cubilia eu bibendum iaculis quisque potenti turpis nisl quam class. Enim aptent lorem; dapibus dui tristique donec posuere. Orci a sapien senectus, nibh erat auctor. Dapibus turpis maecenas fusce urna blandit amet placerat dapibus.
-                  </p>
-                  
-                  <p>
-                    Dis vestibulum nisi non, turpis ligula mi. Ultrices nostra bibendum fringilla cursus platea hendrerit feugiat aptent. Placerat vulputate volutpat mus torquent convallis ullamcorper netus. Et parturient libero nunc curabitur posuere aptent. Amet vivamus himenaeos efficitur urna primis eu fusce vulputate. Montes fames lorem lobortis amet consectetur ultrices massa ad adipiscing. Penatibus vestibulum tristique suscipit ullamcorper lectus vestibulum praesent gravida. Parturient tristique dui est erat mi elementum quisque porttitor.
-                  </p>
-                  
-                  <p>
                     Imperdiet libero euismod mollis aptent mauris augue maecenas vel. Proin suscipit fames nam pretium euismod eros feugiat vulputate tellus. Accumsan tortor platea libero ad eleifend vitae vestibulum dictum nisl. Sodales justo auctor nulla inceptos ad condimentum. Nulla etiam maximus blandit pulvinar luctus molestie fusce ullamcorper. Sociosqu in facilisis vivamus ipsum a ut interdum ante. Netus luctus fusce dignissim; dis sapien interdum. Imperdiet magnis posuere facilisi mauris magnis ridiculus sem fringilla.
+                  </p>
+
+                  <p>
+                    Mattis urna vel ex egestas; varius potenti auctor fusce. Sapien eget nulla blandit ligula mauris et morbi tristique. Dui condimentum mattis ante habitasse; nunc nibh consectetur. Platea adipiscing per vestibulum duis; sodales cursus posuere.
+                  </p>
+
+                  <p>
+                    Tristique diam consectetur iaculis class metus montes ante. Vitae netus conubia tincidunt nibh mauris quisque morbi. Praesent rhoncus aenean mus a litora sagittis varius.
+                  </p>
+
+                  <p>
+                    Laoreet maximus ad lacinia neque id conubia vulputate. Fusce scelerisque himenaeos habitant phasellus cras egestas commodo laoreet. Vitae metus felis convallis senectus phasellus, consectetur nibh nulla auctor. Inceptos magna faucibus interdum magna quis ex vulputate sem. Amet nunc mauris penatibus posuere proin. Himenaeos porta volutpat tellus litora; curae cras eleifend.
                   </p>
                 </article>
               </div>
@@ -81,4 +85,3 @@ const Sample = () => {
 };
 
 export default Sample;
-
