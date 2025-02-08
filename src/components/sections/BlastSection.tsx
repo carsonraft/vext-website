@@ -44,8 +44,8 @@ const BlastSection = () => {
               <div className="absolute inset-0 border border-[#C6FF00]/80 bg-[#04120B]/30 transform translate-x-[5%] -translate-y-[10%] z-[2]" />
               <img
                 loading="lazy"
-                src="/lovable-uploads/c92449a2-2564-4fcd-afcf-0268325a9b76.png"
-                alt="Album Cover"
+                src="/lovable-uploads/71d08123-14c8-41ec-8980-839ac359f814.png"
+                alt="Fashion Editorial Image"
                 className="w-full h-auto border border-[#C6FF00]/70 relative z-[3]"
               />
             </div>
