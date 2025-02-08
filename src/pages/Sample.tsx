@@ -77,7 +77,7 @@ const Sample = () => {
                     </div>
                     <div className="space-y-6 text-left -ml-0">
                       <p>
-                        Mattis urna vel ex egestas; varius potenti auctor fusce. Sapien eget nulla blandit ligula mauris et morbi tristique. Dui condimentum mattis ante habitasse; nunc nibh consectetur. Platea adipiscing per vestibulum duis; sodales cursus posuere.
+                        Mattis urna vel ex egestas; varius potenti auctor fusce. Sapien eget nulla blandit ligula mauris et morbi tristique. Dui condimentum mattis ante habitasse; nunc nibh consectetur. Platea adipiscing per vestibulum duis; sodales cursus posuere. Egestas pharetra dictumst facilisis condimentum justo volutpat enim. Sollicitudin feugiat tempus accumsan ultricies bibendum cras duis. Nam euismod gravida fermentum risus vehicula elementum praesent. Integer viverra torquent congue cursus habitasse quisque leo mauris. Phasellus lacinia ultrices donec hendrerit etiam ac.
                       </p>
                       
                       <p>
