@@ -68,11 +68,11 @@ const Sample = () => {
                   </p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-0 items-start">
-                    <div className="w-3/4 aspect-square relative overflow-hidden">
+                    <div className="w-3/4 aspect-square relative overflow-hidden" style={{ height: '30%' }}>
                       <img 
                         src="/lovable-uploads/01c5b644-ab4d-4e93-94ca-f342bf38f987.png"
                         alt="Artistic digital painting with sunglasses"
-                        className="w-full h-full object-cover"
+                        className="w-full h-[333%] object-cover object-top"
                       />
                     </div>
                     <div className="space-y-6 text-left -ml-0">
