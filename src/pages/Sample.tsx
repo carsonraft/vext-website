@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
 
@@ -9,12 +8,6 @@ const Sample = () => {
       <Header />
       <main className="text-white">
         <div className="max-w-6xl mx-auto">
-          <div className="px-8 pt-8">
-            <Link to="/" className="text-[#C6FF00] hover:text-white transition-colors mb-8 inline-block">
-              ← Back to Home
-            </Link>
-          </div>
-          
           <div className="space-y-8">
             <div className="relative">
               <div className="w-full aspect-[16/9] bg-black overflow-hidden">
