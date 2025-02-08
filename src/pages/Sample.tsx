@@ -27,7 +27,7 @@ const Sample = () => {
                 <div className="mt-4">
                   <h2 className="inline-block text-2xl md:text-3xl font-handjet text-gray-300 text-left">
                     <span className="bg-black px-4 py-2 box-decoration-clone">
-                      How a U.S. Army veteran become one of America's most vocal critics
+                      How a U.S. Army veteran became one of America's most vocal critics
                     </span>
                   </h2>
                 </div>
