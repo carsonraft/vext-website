@@ -46,6 +46,12 @@ const Footer = () => {
     <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-4">
         <div className="grid gap-8">
+          <div className="overflow-hidden whitespace-nowrap">
+            <div className="font-handjet text-[#C6FF00] text-2xl">
+              VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE
+            </div>
+          </div>
+
           <div className="flex justify-center gap-12">
             {socialLinks.map((social) => (
               <div key={social.name} className="flex flex-col items-center gap-2">
@@ -73,6 +79,12 @@ const Footer = () => {
             ))}
           </div>
 
+          <div className="overflow-hidden whitespace-nowrap">
+            <div className="font-handjet text-[#C6FF00] text-2xl">
+              VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE
+            </div>
+          </div>
+
           <div className="flex flex-wrap justify-center gap-8 font-handjet text-xl">
             {links.map((link) => (
               <a
@@ -97,3 +109,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
