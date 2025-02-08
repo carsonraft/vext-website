@@ -1,4 +1,3 @@
-
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -68,7 +67,7 @@ const Sample = () => {
                     Convallis lobortis sodales viverra non hendrerit nec. Sed cubilia imperdiet nostra purus inceptos sem enim. Scelerisque erat hac malesuada porttitor nascetur. Porttitor per iaculis felis quis potenti mus dui nostra. Nibh risus senectus fringilla sociosqu consectetur lacinia aliquet curabitur. Ad mi amet fringilla ultrices dis nunc cubilia libero integer. Netus et curabitur tellus faucibus nisi vel purus tempus. Scelerisque ligula finibus placerat himenaeos eget. Efficitur ad ridiculus nunc libero tempus eros iaculis penatibus venenatis.
                   </p>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-0 items-start">
                     <div className="w-3/4 aspect-square relative overflow-hidden">
                       <img 
                         src="/lovable-uploads/01c5b644-ab4d-4e93-94ca-f342bf38f987.png"
@@ -76,7 +75,7 @@ const Sample = () => {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <div className="space-y-6 text-left">
+                    <div className="space-y-6 text-left -ml-0">
                       <p>
                         Mattis urna vel ex egestas; varius potenti auctor fusce. Sapien eget nulla blandit ligula mauris et morbi tristique. Dui condimentum mattis ante habitasse; nunc nibh consectetur. Platea adipiscing per vestibulum duis; sodales cursus posuere.
                       </p>
