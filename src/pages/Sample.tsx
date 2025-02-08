@@ -49,7 +49,7 @@ const Sample = () => {
                   </p>
 
                   <div className="my-12 px-8">
-                    <div className="w-full h-[300px] relative overflow-hidden">
+                    <div className="w-full h-[225px] relative overflow-hidden">
                       <img 
                         src="/lovable-uploads/cfa4e7f6-6798-4903-8f8d-2404059df604.png"
                         alt="Artistic portrait with neon green and red tones"
@@ -81,3 +81,4 @@ const Sample = () => {
 };
 
 export default Sample;
+
