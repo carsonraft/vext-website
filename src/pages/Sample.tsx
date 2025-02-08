@@ -1,9 +1,12 @@
-import React from "react";
+
+import React, { useState } from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
-import { MessageCircle, ThumbsUp } from "lucide-react";
+import { MessageCircle, ThumbsUp, ChevronDown } from "lucide-react";
 
 const Sample = () => {
+  const [expandedComment, setExpandedComment] = useState<number | null>(null);
+
   return (
     <div className="w-full min-h-screen bg-[#221F26]">
       <Header />
@@ -115,7 +118,19 @@ const Sample = () => {
                           </button>
                         </div>
                       </div>
-                      <p className="font-handjet text-gray-100">This article perfectly captures the essence of JPEGMAFIA's artistic journey. The military background adds such an interesting layer to his perspective.</p>
+                      <div>
+                        <p className="font-handjet text-gray-100">This article perfectly captures the essence of JPEGMAFIA's artistic journey.</p>
+                        <div className={`mt-2 overflow-hidden transition-all duration-300 ${expandedComment === 0 ? 'opacity-100 max-h-20' : 'opacity-0 max-h-0'}`}>
+                          <p className="font-handjet text-gray-100">The military background adds such an interesting layer to his perspective.</p>
+                        </div>
+                        <button 
+                          onClick={() => setExpandedComment(expandedComment === 0 ? null : 0)}
+                          className="text-sm text-gray-400 hover:text-[#C6FF00] mt-1 flex items-center gap-1"
+                        >
+                          {expandedComment === 0 ? 'Show less' : 'Show more'}
+                          <ChevronDown className={`transition-transform ${expandedComment === 0 ? 'rotate-180' : ''}`} size={14} />
+                        </button>
+                      </div>
                     </div>
 
                     <div className="bg-black/40 p-4 rounded-lg">
@@ -132,7 +147,19 @@ const Sample = () => {
                           </button>
                         </div>
                       </div>
-                      <p className="font-handjet text-gray-100">Love how he challenges the status quo. His production techniques are mind-blowing!</p>
+                      <div>
+                        <p className="font-handjet text-gray-100">Love how he challenges the status quo.</p>
+                        <div className={`mt-2 overflow-hidden transition-all duration-300 ${expandedComment === 1 ? 'opacity-100 max-h-20' : 'opacity-0 max-h-0'}`}>
+                          <p className="font-handjet text-gray-100">His production techniques are mind-blowing!</p>
+                        </div>
+                        <button 
+                          onClick={() => setExpandedComment(expandedComment === 1 ? null : 1)}
+                          className="text-sm text-gray-400 hover:text-[#C6FF00] mt-1 flex items-center gap-1"
+                        >
+                          {expandedComment === 1 ? 'Show less' : 'Show more'}
+                          <ChevronDown className={`transition-transform ${expandedComment === 1 ? 'rotate-180' : ''}`} size={14} />
+                        </button>
+                      </div>
                     </div>
 
                     <div className="bg-black/40 p-4 rounded-lg">
@@ -149,7 +176,19 @@ const Sample = () => {
                           </button>
                         </div>
                       </div>
-                      <p className="font-handjet text-gray-100">The way he blends experimental sounds with powerful messaging is unmatched in today's music scene.</p>
+                      <div>
+                        <p className="font-handjet text-gray-100">The way he blends experimental sounds with powerful messaging is unmatched.</p>
+                        <div className={`mt-2 overflow-hidden transition-all duration-300 ${expandedComment === 2 ? 'opacity-100 max-h-20' : 'opacity-0 max-h-0'}`}>
+                          <p className="font-handjet text-gray-100">in today's music scene.</p>
+                        </div>
+                        <button 
+                          onClick={() => setExpandedComment(expandedComment === 2 ? null : 2)}
+                          className="text-sm text-gray-400 hover:text-[#C6FF00] mt-1 flex items-center gap-1"
+                        >
+                          {expandedComment === 2 ? 'Show less' : 'Show more'}
+                          <ChevronDown className={`transition-transform ${expandedComment === 2 ? 'rotate-180' : ''}`} size={14} />
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -177,3 +216,4 @@ const Sample = () => {
 };
 
 export default Sample;
+
