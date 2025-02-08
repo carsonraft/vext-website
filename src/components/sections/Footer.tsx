@@ -44,8 +44,8 @@ const Footer = () => {
     <footer className="bg-black text-white py-4">
       <div className="container mx-auto px-4">
         <div className="grid gap-2">
-          <div className="overflow-hidden whitespace-nowrap">
-            <div className="font-handjet text-[#C6FF00] text-2xl">
+          <div className="overflow-hidden whitespace-nowrap -ml-[100vw]">
+            <div className="font-handjet text-[#C6FF00] text-2xl ml-[100vw]">
               {repeatingText}
             </div>
           </div>
@@ -69,8 +69,8 @@ const Footer = () => {
             ))}
           </div>
 
-          <div className="overflow-hidden whitespace-nowrap">
-            <div className="font-handjet text-[#C6FF00] text-2xl">
+          <div className="overflow-hidden whitespace-nowrap -ml-[100vw]">
+            <div className="font-handjet text-[#C6FF00] text-2xl ml-[100vw]">
               {repeatingText}
             </div>
           </div>
