@@ -1,4 +1,3 @@
-
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -96,7 +95,7 @@ const Sample = () => {
               </div>
             </div>
 
-            <div className="px-4 pb-20">
+            <div className="px-4 pb-12">
               <div className="space-y-8 max-w-3xl mx-auto">
                 <div className="space-y-4">
                   <h2 className="text-2xl font-handjet text-[#C6FF00] text-center">Most Engaged</h2>
@@ -178,4 +177,3 @@ const Sample = () => {
 };
 
 export default Sample;
-
