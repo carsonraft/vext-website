@@ -1,4 +1,3 @@
-
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -38,11 +37,6 @@ const Sample = () => {
                 alt="Artistic portrait with neon green and red tones"
                 className="w-full h-full object-cover object-top"
               />
-              <div className="absolute top-0 right-0 bg-[#C6FF00] p-6 text-black">
-                <p className="text-sm font-bold">REVIEW:</p>
-                <p className="text-sm">Christian</p>
-                <p className="text-sm">Sean</p>
-              </div>
             </div>
             
             <div className="px-8">
