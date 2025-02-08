@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -118,7 +119,7 @@ const Sample = () => {
                         </div>
                       </div>
                       <div>
-                        <div className={`relative ${expandedComment === 0 ? '' : 'max-h-[24px] overflow-hidden'}`}>
+                        <div className={`relative ${expandedComment === 0 ? '' : 'max-h-[48px] overflow-hidden'}`}>
                           <p className="font-handjet text-gray-100">This article perfectly captures the essence of JPEGMAFIA's artistic journey as he learns to criticize the United States, which is my favorite country except all the rest lmao. Any way, what I think is that JPEGMAFIA would be doing better in his career if he chose a file format that is lossless, e.g. PNGMAFIA</p>
                           {expandedComment !== 0 && (
                             <div className="absolute bottom-0 left-0 right-0 h-full bg-gradient-to-b from-transparent via-black/40 to-black/40" />
@@ -247,3 +248,4 @@ const Sample = () => {
 };
 
 export default Sample;
+
