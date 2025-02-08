@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -31,14 +32,6 @@ const Sample = () => {
               </div>
             </div>
             
-            <div className="w-full h-[300px] relative overflow-hidden">
-              <img 
-                src="/lovable-uploads/cfa4e7f6-6798-4903-8f8d-2404059df604.png"
-                alt="Artistic portrait with neon green and red tones"
-                className="w-full h-full object-cover object-top"
-              />
-            </div>
-            
             <div className="px-8">
               <div className="prose prose-invert max-w-none mt-8">
                 <article className="space-y-6 text-lg font-handjet leading-relaxed">
@@ -49,6 +42,16 @@ const Sample = () => {
                   <p>
                     Convallis lobortis sodales viverra non hendrerit nec. Sed cubilia imperdiet nostra purus inceptos sem enim. Scelerisque erat hac malesuada porttitor nascetur. Porttitor per iaculis felis quis potenti mus dui nostra. Nibh risus senectus fringilla sociosqu consectetur lacinia aliquet curabitur. Ad mi amet fringilla ultrices dis nunc cubilia libero integer. Netus et curabitur tellus faucibus nisi vel purus tempus. Scelerisque ligula finibus placerat himenaeos eget. Efficitur ad ridiculus nunc libero tempus eros iaculis penatibus venenatis.
                   </p>
+
+                  <div className="my-12 px-8">
+                    <div className="w-full h-[300px] relative overflow-hidden">
+                      <img 
+                        src="/lovable-uploads/cfa4e7f6-6798-4903-8f8d-2404059df604.png"
+                        alt="Artistic portrait with neon green and red tones"
+                        className="w-full h-full object-cover object-top"
+                      />
+                    </div>
+                  </div>
                   
                   <p>
                     Class proin odio, fringilla ante elit ullamcorper. Magna ullamcorper quisque habitant accumsan nisl pretium primis. Rutrum egestas parturient vitae lorem neque torquent purus odio. Aenean parturient pretium felis sollicitudin nec maecenas mattis montes. Litora etiam suscipit sapien posuere libero netus ipsum. Cubilia eu bibendum iaculis quisque potenti turpis nisl quam class. Enim aptent lorem; dapibus dui tristique donec posuere. Orci a sapien senectus, nibh erat auctor. Dapibus turpis maecenas fusce urna blandit amet placerat dapibus.
@@ -73,3 +76,4 @@ const Sample = () => {
 };
 
 export default Sample;
+
