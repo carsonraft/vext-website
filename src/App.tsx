@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import IndexCopy from "./pages/IndexCopy";
 import Sample from "./pages/Sample";
 import NotFound from "./pages/NotFound";
+import RecessionCore from "./pages/RecessionCore";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/copy" element={<IndexCopy />} />
           <Route path="/article" element={<Sample />} />
+          <Route path="/recession-core" element={<RecessionCore />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

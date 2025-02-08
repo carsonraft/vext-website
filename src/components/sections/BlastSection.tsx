@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlastSection = () => {
   return (
@@ -11,9 +12,11 @@ const BlastSection = () => {
               <div className="-space-y-4">
                 <article className="pl-4 relative">
                   <div className="absolute inset-x-[-100vw] top-2 bottom-2 bg-[#F2FCE2]/5" />
-                  <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white uppercase">
-                    THE RISE OF RECESSION CORE
-                  </h4>
+                  <Link to="/recession-core">
+                    <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white uppercase hover:text-[#C6FF00] transition-colors">
+                      THE RISE OF RECESSION CORE
+                    </h4>
+                  </Link>
                 </article>
                 <article className="pl-4">
                   <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
@@ -52,4 +55,3 @@ const BlastSection = () => {
 };
 
 export default BlastSection;
-
