@@ -22,45 +22,54 @@ const Footer = () => {
   const socialLinks = [
     { 
       name: "Instagram", 
-      url: "https://instagram.com/vextmagazine",
-      handle: "@VEXTMAGAZINE",
+      url: "https://www.instagram.com/vextmagazine/",
+      handle: "vextmagazine",
     },
     { 
       name: "TikTok", 
-      url: "https://tiktok.com/@vextmagazine",
-      handle: "@VEXTMAGAZINE",
+      url: "https://www.tiktok.com/@vextmagazine",
+      handle: "@vextmagazine",
     },
     { 
       name: "Tumblr", 
-      url: "https://vextmagazine.tumblr.com",
-      handle: "VEXTMAGAZINE",
+      url: "https://www.tumblr.com/vextmagazine",
+      handle: "vextmagazine",
     },
     { 
       name: "Twitch", 
-      url: "https://twitch.tv/vextmagazine", 
-      handle: "@VEXTMAGAZINE",
+      url: "https://www.twitch.tv/vextmagazine", 
+      handle: "https://www.twitch.tv/vextmagazine",
     }
   ];
 
   return (
     <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-4">
-        <div className="grid gap-0">
-          <div className="flex justify-center gap-4">
+        <div className="grid gap-8">
+          <div className="flex justify-center gap-12">
             {socialLinks.map((social) => (
-              <a 
-                key={social.name}
-                href={social.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition-opacity duration-200 hover:opacity-80"
-              >
-                <img 
-                  src={socialIcons[social.name as keyof typeof socialIcons]} 
-                  alt={`${social.name} Icon`}
-                  className="h-8 w-8"
-                />
-              </a>
+              <div key={social.name} className="flex flex-col items-center gap-2">
+                <a 
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-opacity duration-200 hover:opacity-80"
+                >
+                  <img 
+                    src={socialIcons[social.name as keyof typeof socialIcons]} 
+                    alt={`${social.name} Icon`}
+                    className="h-8 w-8"
+                  />
+                </a>
+                <a 
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#C6FF00] text-sm hover:opacity-80 transition-opacity"
+                >
+                  {social.handle}
+                </a>
+              </div>
             ))}
           </div>
 
