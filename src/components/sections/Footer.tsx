@@ -42,13 +42,15 @@ const Footer = () => {
     }
   ];
 
+  const repeatingText = "VEXTMAGAZINE ".repeat(25);
+
   return (
     <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-4">
         <div className="grid gap-8">
           <div className="overflow-hidden whitespace-nowrap">
             <div className="font-handjet text-[#C6FF00] text-2xl">
-              VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE
+              {repeatingText}
             </div>
           </div>
 
@@ -81,7 +83,7 @@ const Footer = () => {
 
           <div className="overflow-hidden whitespace-nowrap">
             <div className="font-handjet text-[#C6FF00] text-2xl">
-              VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE VEXTMAGAZINE
+              {repeatingText}
             </div>
           </div>
 
