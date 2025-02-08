@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -28,6 +29,19 @@ const Sample = () => {
                     How a U.S. Army veteran become one of America's most vocal critics
                   </span>
                 </h2>
+              </div>
+            </div>
+            
+            <div className="w-full h-[300px] relative overflow-hidden">
+              <img 
+                src="/lovable-uploads/cfa4e7f6-6798-4903-8f8d-2404059df604.png"
+                alt="Artistic portrait with neon green and red tones"
+                className="w-full h-full object-cover object-top"
+              />
+              <div className="absolute top-0 right-0 bg-[#C6FF00] p-6 text-black">
+                <p className="text-sm font-bold">REVIEW:</p>
+                <p className="text-sm">Christian</p>
+                <p className="text-sm">Sean</p>
               </div>
             </div>
             
