@@ -52,28 +52,25 @@ const Sample = () => {
                     Convallis lobortis sodales viverra non hendrerit nec. Sed cubilia imperdiet nostra purus inceptos sem enim. Scelerisque erat hac malesuada porttitor nascetur. Porttitor per iaculis felis quis potenti mus dui nostra. Nibh risus senectus fringilla sociosqu consectetur lacinia aliquet curabitur. Ad mi amet fringilla ultrices dis nunc cubilia libero integer. Netus et curabitur tellus faucibus nisi vel purus tempus. Scelerisque ligula finibus placerat himenaeos eget. Efficitur ad ridiculus nunc libero tempus eros iaculis penatibus venenatis.
                   </p>
 
-                  <div className="my-12 px-8">
-                    <div className="w-full h-[225px] relative overflow-hidden">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                    <div className="w-full aspect-[4/3] relative overflow-hidden">
                       <img 
-                        src="/lovable-uploads/cfa4e7f6-6798-4903-8f8d-2404059df604.png"
-                        alt="Artistic portrait with neon green and red tones"
-                        className="w-full h-full object-cover object-top"
+                        src="/lovable-uploads/a367a41c-5c68-4f07-985f-c16efc56b589.png"
+                        alt="Artistic portrait with sunglasses"
+                        className="w-full h-full object-cover"
                       />
+                    </div>
+                    <div className="space-y-6">
+                      <p>
+                        Mattis urna vel ex egestas; varius potenti auctor fusce. Sapien eget nulla blandit ligula mauris et morbi tristique. Dui condimentum mattis ante habitasse; nunc nibh consectetur. Platea adipiscing per vestibulum duis; sodales cursus posuere.
+                      </p>
+                      
+                      <p>
+                        Tristique diam consectetur iaculis class metus montes ante. Vitae netus conubia tincidunt nibh mauris quisque morbi. Praesent rhoncus aenean mus a litora sagittis varius.
+                      </p>
                     </div>
                   </div>
                   
-                  <p>
-                    Imperdiet libero euismod mollis aptent mauris augue maecenas vel. Proin suscipit fames nam pretium euismod eros feugiat vulputate tellus. Accumsan tortor platea libero ad eleifend vitae vestibulum dictum nisl. Sodales justo auctor nulla inceptos ad condimentum. Nulla etiam maximus blandit pulvinar luctus molestie fusce ullamcorper. Sociosqu in facilisis vivamus ipsum a ut interdum ante. Netus luctus fusce dignissim; dis sapien interdum. Imperdiet magnis posuere facilisi mauris magnis ridiculus sem fringilla.
-                  </p>
-
-                  <p>
-                    Mattis urna vel ex egestas; varius potenti auctor fusce. Sapien eget nulla blandit ligula mauris et morbi tristique. Dui condimentum mattis ante habitasse; nunc nibh consectetur. Platea adipiscing per vestibulum duis; sodales cursus posuere.
-                  </p>
-
-                  <p>
-                    Tristique diam consectetur iaculis class metus montes ante. Vitae netus conubia tincidunt nibh mauris quisque morbi. Praesent rhoncus aenean mus a litora sagittis varius.
-                  </p>
-
                   <p>
                     Laoreet maximus ad lacinia neque id conubia vulputate. Fusce scelerisque himenaeos habitant phasellus cras egestas commodo laoreet. Vitae metus felis convallis senectus phasellus, consectetur nibh nulla auctor. Inceptos magna faucibus interdum magna quis ex vulputate sem. Amet nunc mauris penatibus posuere proin. Himenaeos porta volutpat tellus litora; curae cras eleifend.
                   </p>
