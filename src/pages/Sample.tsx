@@ -53,11 +53,11 @@ const Sample = () => {
                   </p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-                    <div className="w-full aspect-[4/3] relative overflow-hidden">
+                    <div className="w-full aspect-square relative overflow-hidden">
                       <img 
                         src="/lovable-uploads/a367a41c-5c68-4f07-985f-c16efc56b589.png"
                         alt="Artistic portrait with sunglasses"
-                        className="w-[200%] h-[200%] object-cover object-left-top"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     <div className="space-y-6">
