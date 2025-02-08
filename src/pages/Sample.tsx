@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -23,19 +24,19 @@ const Sample = () => {
                     JPEGMAFIA: TO SERVE AND PROTECT
                   </span>
                 </h1>
-                <div className="mt-4">
+                <div className="-mt-2">
+                  <div className="inline-block text-xl font-handjet text-gray-400 text-left z-0">
+                    <span className="bg-black px-4 py-2 box-decoration-clone">
+                      By Sandra Song
+                    </span>
+                  </div>
+                </div>
+                <div className="mt-4 relative z-10">
                   <h2 className="inline-block text-2xl md:text-3xl font-handjet text-gray-300 text-left">
                     <span className="bg-black px-4 py-2 box-decoration-clone">
                       How a U.S. Army veteran became one of America's most vocal critics
                     </span>
                   </h2>
-                </div>
-                <div className="-mt-2">
-                  <div className="inline-block text-xl font-handjet text-gray-400 text-left">
-                    <span className="bg-black px-4 py-2 box-decoration-clone">
-                      By Sandra Song
-                    </span>
-                  </div>
                 </div>
               </div>
             </div>
