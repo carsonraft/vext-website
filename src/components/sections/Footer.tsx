@@ -38,7 +38,7 @@ const Footer = () => {
     }
   ];
 
-  const repeatingText = "AGAZINE VEXTM".repeat(25);
+  const repeatingText = "MAGAZINE VEXT".repeat(100);
 
   return (
     <footer className="bg-black text-white py-4">
@@ -99,3 +99,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
