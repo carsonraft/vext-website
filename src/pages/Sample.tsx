@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -68,12 +69,11 @@ const Sample = () => {
                   </p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-                    <div className="w-3/4 aspect-square relative overflow-hidden flex justify-center">
+                    <div className="w-3/4 aspect-square relative overflow-hidden">
                       <img 
                         src="/lovable-uploads/01c5b644-ab4d-4e93-94ca-f342bf38f987.png"
                         alt="Artistic digital painting with sunglasses"
-                        className="w-4/5 object-cover object-top"
-                        style={{ clipPath: 'inset(0 0 70% 0)' }}
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     <div className="space-y-6 text-left">
