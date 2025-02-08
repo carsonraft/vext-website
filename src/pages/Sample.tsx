@@ -55,8 +55,8 @@ const Sample = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                     <div className="w-full aspect-square relative overflow-hidden">
                       <img 
-                        src="/lovable-uploads/a367a41c-5c68-4f07-985f-c16efc56b589.png"
-                        alt="Artistic portrait with sunglasses"
+                        src="/lovable-uploads/01c5b644-ab4d-4e93-94ca-f342bf38f987.png"
+                        alt="Artistic digital painting with sunglasses"
                         className="w-full h-full object-cover"
                       />
                     </div>
