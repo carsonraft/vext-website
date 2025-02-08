@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -30,7 +31,7 @@ const Sample = () => {
                     </span>
                   </h2>
                 </div>
-                <div className="mt-4">
+                <div className="-mt-2">
                   <div className="inline-block text-xl font-handjet text-gray-400 text-left">
                     <span className="bg-black px-4 py-2 box-decoration-clone">
                       By Sandra Song
