@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const exploreItems = [
@@ -15,12 +16,14 @@ const Header = () => {
     <header className="w-full bg-[#222222] text-white">
       <div className="container mx-auto px-0">
         <div className="flex items-center justify-between">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true"
-            alt="Vext Logo"
-            className="h-12 self-start"
-          />
+          <Link to="/">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/397d64219276bac060bda5070da7d42a35093d3601fc744e879d43a15822a86b?placeholderIfAbsent=true"
+              alt="Vext Logo"
+              className="h-12 self-start"
+            />
+          </Link>
           <nav className="flex items-center space-x-8">
             <div className="text-xl text-[#C6FF00] font-instrument">EXPLORE:</div>
             <ul className="flex items-center space-x-6">
@@ -43,4 +46,3 @@ const Header = () => {
 };
 
 export default Header;
-
