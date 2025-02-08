@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
+import { MessageCircle, ThumbsUp } from "lucide-react";
 
 const Sample = () => {
   return (
@@ -91,6 +92,84 @@ const Sample = () => {
                   </p>
                   <p className="text-gray-400 text-sm mt-8 mb-24">Originally published 3/2/2025</p>
                 </article>
+              </div>
+            </div>
+
+            <div className="px-4 pb-20">
+              <div className="grid grid-cols-1 md:grid-cols-[2fr,1fr] gap-8">
+                <div className="space-y-6">
+                  <h2 className="text-3xl font-handjet text-[#C6FF00]">Discussion</h2>
+                  <div className="bg-black/40 p-6 rounded-lg">
+                    <textarea 
+                      placeholder="Join the discussion..."
+                      className="w-full bg-black/40 border border-gray-700 rounded-lg p-4 text-white font-handjet resize-none focus:outline-none focus:ring-1 focus:ring-[#C6FF00] min-h-[120px]"
+                    />
+                    <button className="mt-4 bg-[#C6FF00] text-black px-6 py-2 rounded-lg font-handjet hover:bg-[#d4ff33] transition-colors">
+                      Post Comment
+                    </button>
+                  </div>
+                </div>
+
+                <div className="space-y-6">
+                  <h2 className="text-2xl font-handjet text-[#C6FF00]">Most Engaged</h2>
+                  
+                  <div className="space-y-4">
+                    <div className="bg-black/40 p-4 rounded-lg">
+                      <div className="flex justify-between items-start mb-2">
+                        <span className="font-handjet text-gray-300">@user123</span>
+                        <div className="flex gap-4 text-gray-400">
+                          <button className="flex items-center gap-1 hover:text-[#C6FF00]">
+                            <ThumbsUp size={16} />
+                            <span>42</span>
+                          </button>
+                          <button className="flex items-center gap-1 hover:text-[#C6FF00]">
+                            <MessageCircle size={16} />
+                            <span>12</span>
+                          </button>
+                        </div>
+                      </div>
+                      <p className="font-handjet text-gray-100">This article perfectly captures the essence of JPEGMAFIA's artistic journey. The military background adds such an interesting layer to his perspective.</p>
+                    </div>
+
+                    <div className="border-t border-gray-800 my-4"></div>
+
+                    <div className="bg-black/40 p-4 rounded-lg">
+                      <div className="flex justify-between items-start mb-2">
+                        <span className="font-handjet text-gray-300">@musicfan99</span>
+                        <div className="flex gap-4 text-gray-400">
+                          <button className="flex items-center gap-1 hover:text-[#C6FF00]">
+                            <ThumbsUp size={16} />
+                            <span>38</span>
+                          </button>
+                          <button className="flex items-center gap-1 hover:text-[#C6FF00]">
+                            <MessageCircle size={16} />
+                            <span>8</span>
+                          </button>
+                        </div>
+                      </div>
+                      <p className="font-handjet text-gray-100">Love how he challenges the status quo. His production techniques are mind-blowing!</p>
+                    </div>
+
+                    <div className="border-t border-gray-800 my-4"></div>
+
+                    <div className="bg-black/40 p-4 rounded-lg">
+                      <div className="flex justify-between items-start mb-2">
+                        <span className="font-handjet text-gray-300">@hiphophead</span>
+                        <div className="flex gap-4 text-gray-400">
+                          <button className="flex items-center gap-1 hover:text-[#C6FF00]">
+                            <ThumbsUp size={16} />
+                            <span>31</span>
+                          </button>
+                          <button className="flex items-center gap-1 hover:text-[#C6FF00]">
+                            <MessageCircle size={16} />
+                            <span>5</span>
+                          </button>
+                        </div>
+                      </div>
+                      <p className="font-handjet text-gray-100">The way he blends experimental sounds with powerful messaging is unmatched in today's music scene.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
