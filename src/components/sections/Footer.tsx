@@ -11,27 +11,15 @@ const Footer = () => {
   ];
 
   const socialIcons = {
-    Tumblr: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png",
-    Twitter: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png", 
-    Instagram: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png",
-    TikTok: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png",
-    YouTube: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png",
-    Twitch: "/lovable-uploads/61f44b90-009f-4ec4-9efa-91895517632d.png"
+    Instagram: "/lovable-uploads/f8c84c73-9dca-45f9-9822-2e247eee8c23.png",
+    TikTok: "/lovable-uploads/6ad12031-8485-47c2-9eb3-be2c44ee47f9.png",
+    Tumblr: "/lovable-uploads/15a0ed9e-e7c0-4dbd-8424-5beda90c0798.png",
+    Twitch: "/lovable-uploads/d205bda6-ecfe-41ee-a4fa-f9b72bf96378.png"
   };
   
   const vextLogo = "/lovable-uploads/048d2e7a-087a-41f1-b355-f0cc7982cc25.png";
   
   const socialLinks = [
-    { 
-      name: "Tumblr", 
-      url: "https://vextmagazine.tumblr.com",
-      handle: "VEXTMAGAZINE",
-    },
-    { 
-      name: "Twitter", 
-      url: "https://twitter.com/vext_magazine",
-      handle: "@VEXT_MAGAZINE",
-    },
     { 
       name: "Instagram", 
       url: "https://instagram.com/vextmagazine",
@@ -43,13 +31,13 @@ const Footer = () => {
       handle: "@VEXTMAGAZINE",
     },
     { 
-      name: "YouTube", 
-      url: "https://youtube.com/vextmagazine",
+      name: "Tumblr", 
+      url: "https://vextmagazine.tumblr.com",
       handle: "VEXTMAGAZINE",
     },
     { 
       name: "Twitch", 
-      url: "https://twitch.tv/vextmagazine",
+      url: "https://twitch.tv/vextmagazine", 
       handle: "@VEXTMAGAZINE",
     }
   ];
