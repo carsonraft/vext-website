@@ -15,13 +15,22 @@ const Sample = () => {
           </Link>
           
           <div className="space-y-8">
-            <div className="space-y-2">
-              <h1 className="text-6xl font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00]">
-                JPEGMAFIA: TO SERVE AND PROTECT
-              </h1>
-              <h2 className="text-2xl font-handjet text-gray-300">
-                How a U.S. Army veteran become one of America's most vocal critics
-              </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+              <div className="w-full aspect-square bg-black rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/5a1e44df-3f25-4b52-8dc9-33ba570557b0.png"
+                  alt="JPEGMAFIA outside a liquor store at night"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="space-y-4">
+                <h1 className="text-4xl md:text-6xl font-['EnfiladeTRIALHeadline-Bold'] text-[#C6FF00] text-left">
+                  JPEGMAFIA: TO SERVE AND PROTECT
+                </h1>
+                <h2 className="text-xl md:text-2xl font-handjet text-gray-300 text-left">
+                  How a U.S. Army veteran become one of America's most vocal critics
+                </h2>
+              </div>
             </div>
             
             <div className="bg-[#403E43] p-6 rounded-lg">
