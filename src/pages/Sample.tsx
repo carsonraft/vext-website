@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -50,14 +51,6 @@ const Sample = () => {
                   <p>
                     Nisi metus sed nisl vestibulum, vivamus aptent ligula ultrices. Dictum tempor ad nulla turpis aliquet. Ultrices montes eu rutrum bibendum nulla etiam per. Vehicula tempor mauris sit convallis est cursus? Velit penatibus imperdiet torquent montes dictumst. Aptent dis elementum augue pretium eleifend. Arcu elit ullamcorper ridiculus arcu suscipit himenaeos. Cras mattis euismod rutrum imperdiet commodo dui elit. Curabitur ut quam augue suspendisse facilisi mattis pellentesque habitasse.
                   </p>
-
-                  <div className="my-8">
-                    <img 
-                      src="/lovable-uploads/146749e0-9e2f-43e9-98eb-3995693c7446.png"
-                      alt="Artistic portrait with neon green background"
-                      className="w-full"
-                    />
-                  </div>
 
                   <p>
                     Consequat congue tristique odio, quisque tempor vulputate condimentum hendrerit. Class eget donec tempus auctor; nam ac fusce. Conubia curabitur magna ex velit facilisis suspendisse. Congue senectus facilisis vivamus pharetra dictum quam habitant at. Varius nullam platea bibendum velit at ante volutpat urna. Vestibulum ultricies cras sapien sit aliquam ornare. Tempor nibh fusce etiam nostra neque posuere venenatis massa.
