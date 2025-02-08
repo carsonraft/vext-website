@@ -23,36 +23,32 @@ const Footer = () => {
     { 
       name: "Instagram", 
       url: "https://www.instagram.com/vextmagazine/",
+      handle: "vextmagazine",
     },
     { 
       name: "TikTok", 
       url: "https://www.tiktok.com/@vextmagazine",
+      handle: "vextmagazine",
     },
     { 
       name: "Tumblr", 
       url: "https://www.tumblr.com/vextmagazine",
+      handle: "vextmagazine",
     },
     { 
       name: "Twitch", 
       url: "https://www.twitch.tv/vextmagazine", 
+      handle: "vextmagazine",
     }
   ];
 
-  const repeatingText = "MAGAZINE VEXT".repeat(100);
-
   return (
-    <footer className="bg-black text-white py-4">
+    <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-4">
-        <div className="grid gap-2">
-          <div className="overflow-hidden whitespace-nowrap -ml-[100vw]">
-            <div className="font-handjet text-[#C6FF00] text-2xl ml-[100vw]">
-              {repeatingText}
-            </div>
-          </div>
-
+        <div className="grid gap-8">
           <div className="flex justify-center gap-12">
             {socialLinks.map((social) => (
-              <div key={social.name} className="flex flex-col items-center">
+              <div key={social.name} className="flex flex-col items-center gap-2">
                 <a 
                   href={social.url}
                   target="_blank"
@@ -65,14 +61,16 @@ const Footer = () => {
                     className="h-8 w-8"
                   />
                 </a>
+                <a 
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#C6FF00] text-sm hover:opacity-80 transition-opacity"
+                >
+                  {social.handle}
+                </a>
               </div>
             ))}
-          </div>
-
-          <div className="overflow-hidden whitespace-nowrap -ml-[100vw]">
-            <div className="font-handjet text-[#C6FF00] text-2xl ml-[100vw]">
-              {repeatingText}
-            </div>
           </div>
 
           <div className="flex flex-wrap justify-center gap-8 font-handjet text-xl">
