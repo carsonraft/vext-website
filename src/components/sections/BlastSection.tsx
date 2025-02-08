@@ -22,17 +22,17 @@ const BlastSection = () => {
                 </article>
                 <article className="pl-4">
                   <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
-                    MY GIRLFRIEND'S HUSBAND'S CYBERTRUCK REVIEW
+                    RISE OF THE HEALER-DEALER
                   </h4>
                 </article>
                 <article className="pl-4">
                   <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
-                    HOW TO ETHICALLY EUTHANIZE YOUR AI WIFE
+                    FATPHOBIA IN Y2K FASHION
                   </h4>
                 </article>
                 <article className="pl-4">
                   <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
-                    THE COQUETTE EFFECT
+                    QUEEN'S GAMBIT IRL
                   </h4>
                 </article>
               </div>
@@ -57,4 +57,3 @@ const BlastSection = () => {
 };
 
 export default BlastSection;
-
