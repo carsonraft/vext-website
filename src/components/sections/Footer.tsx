@@ -42,11 +42,17 @@ const Footer = () => {
     }
   ];
 
+  const repeatingText = "VEXTMAGAZINE ".repeat(25);
+
   return (
     <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-4">
         <div className="grid gap-8">
-          <div className="border-t border-gray-800" />
+          <div className="overflow-hidden whitespace-nowrap">
+            <div className="font-handjet text-[#C6FF00] text-2xl">
+              {repeatingText}
+            </div>
+          </div>
 
           <div className="flex justify-center gap-12">
             {socialLinks.map((social) => (
@@ -75,7 +81,11 @@ const Footer = () => {
             ))}
           </div>
 
-          <div className="border-b border-gray-800" />
+          <div className="overflow-hidden whitespace-nowrap">
+            <div className="font-handjet text-[#C6FF00] text-2xl">
+              {repeatingText}
+            </div>
+          </div>
 
           <div className="flex flex-wrap justify-center gap-8 font-handjet text-xl">
             {links.map((link) => (
