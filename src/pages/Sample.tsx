@@ -29,6 +29,11 @@ const Sample = () => {
                     How a U.S. Army veteran become one of America's most vocal critics
                   </span>
                 </h2>
+                <div className="inline-block text-xl font-handjet text-gray-400 text-left mt-2">
+                  <span className="bg-black px-4 py-2 box-decoration-clone">
+                    By Sandra Song
+                  </span>
+                </div>
               </div>
             </div>
             
@@ -76,4 +81,3 @@ const Sample = () => {
 };
 
 export default Sample;
-
