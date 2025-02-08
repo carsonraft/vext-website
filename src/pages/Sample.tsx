@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -121,7 +120,7 @@ const Sample = () => {
                       <div>
                         <p className="font-handjet text-gray-100">This article perfectly captures the essence of JPEGMAFIA's artistic journey.</p>
                         <div className={`mt-2 overflow-hidden transition-all duration-300 ${expandedComment === 0 ? 'opacity-100 max-h-96' : 'opacity-0 max-h-0'}`}>
-                          <p className="font-handjet text-gray-100">The military background adds such an interesting layer to his perspective, showing how his experiences shaped both his worldview and musical style. His time in the service clearly influenced his approach to structure and discipline in his production techniques, while simultaneously fueling his desire to challenge institutional norms.</p>
+                          <p className="font-handjet text-gray-100">The military background adds such an interesting layer to his perspective, showing how his experiences shaped both his worldview and musical style. His time in the service clearly influenced his approach to structure and discipline in his production techniques, while simultaneously fueling his desire to challenge institutional norms. The way he incorporates these seemingly contradictory elements - military precision and anarchic experimentation - creates something entirely unique in the contemporary music landscape. His production style, particularly in tracks like "Jesus Forgive Me, I Am A Thot" and "1539 N. Calvert," demonstrates this perfect tension between chaos and control. It's fascinating to see how his experiences in the Air Force translated into his approach to music production, where he maintains incredibly tight control over seemingly chaotic elements. This duality is what makes his work so compelling and impossible to replicate.</p>
                         </div>
                         <button 
                           onClick={() => setExpandedComment(expandedComment === 0 ? null : 0)}
@@ -243,4 +242,3 @@ const Sample = () => {
 };
 
 export default Sample;
-
