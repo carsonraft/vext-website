@@ -4,7 +4,7 @@ import React from "react";
 const BlastSection = () => {
   return (
     <section className="bg-[#04120B] py-16">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 w-[75%]">
         <div className="grid grid-cols-2 gap-8">
           <div className="space-y-8 pl-8">
             <div>
