@@ -28,7 +28,7 @@ const Footer = () => {
     { 
       name: "TikTok", 
       url: "https://www.tiktok.com/@vextmagazine",
-      handle: "@vextmagazine",
+      handle: "vextmagazine",
     },
     { 
       name: "Tumblr", 
