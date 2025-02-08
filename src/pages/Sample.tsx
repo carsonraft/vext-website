@@ -1,4 +1,3 @@
-
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -47,6 +46,14 @@ const Sample = () => {
                   <p>
                     Lorem ipsum odor amet, consectetuer adipiscing elit. Tortor aliquet penatibus nibh nisl vulputate? Consequat eleifend eleifend molestie proin aliquam velit. Hendrerit justo dis conubia justo luctus aptent. Tristique scelerisque aliquet; elementum turpis montes aliquam enim. Fringilla nulla sollicitudin blandit a ex fusce. Donec fringilla quisque ad rhoncus convallis potenti. Lacus aenean sociosqu habitant erat porttitor taciti egestas morbi. Magnis condimentum curabitur nam dignissim lacus dis. Lorem magna nascetur faucibus maecenas odio feugiat fames condimentum.
                   </p>
+
+                  <div className="my-8 flex justify-center">
+                    <img 
+                      src="/lovable-uploads/809d0904-6ab9-447b-8349-0b59d644dfab.png"
+                      alt="Artistic portrait with neon green background"
+                      className="w-[70%]"
+                    />
+                  </div>
 
                   <p>
                     Nisi metus sed nisl vestibulum, vivamus aptent ligula ultrices. Dictum tempor ad nulla turpis aliquet. Ultrices montes eu rutrum bibendum nulla etiam per. Vehicula tempor mauris sit convallis est cursus? Velit penatibus imperdiet torquent montes dictumst. Aptent dis elementum augue pretium eleifend. Arcu elit ullamcorper ridiculus arcu suscipit himenaeos. Cras mattis euismod rutrum imperdiet commodo dui elit. Curabitur ut quam augue suspendisse facilisi mattis pellentesque habitasse.
