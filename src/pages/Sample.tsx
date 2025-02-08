@@ -51,10 +51,18 @@ const Sample = () => {
                     Nisi metus sed nisl vestibulum, vivamus aptent ligula ultrices. Dictum tempor ad nulla turpis aliquet. Ultrices montes eu rutrum bibendum nulla etiam per. Vehicula tempor mauris sit convallis est cursus? Velit penatibus imperdiet torquent montes dictumst. Aptent dis elementum augue pretium eleifend. Arcu elit ullamcorper ridiculus arcu suscipit himenaeos. Cras mattis euismod rutrum imperdiet commodo dui elit. Curabitur ut quam augue suspendisse facilisi mattis pellentesque habitasse.
                   </p>
 
+                  <div className="my-8">
+                    <img 
+                      src="/lovable-uploads/146749e0-9e2f-43e9-98eb-3995693c7446.png"
+                      alt="Artistic portrait with neon green background"
+                      className="w-full"
+                    />
+                  </div>
+
                   <p>
                     Consequat congue tristique odio, quisque tempor vulputate condimentum hendrerit. Class eget donec tempus auctor; nam ac fusce. Conubia curabitur magna ex velit facilisis suspendisse. Congue senectus facilisis vivamus pharetra dictum quam habitant at. Varius nullam platea bibendum velit at ante volutpat urna. Vestibulum ultricies cras sapien sit aliquam ornare. Tempor nibh fusce etiam nostra neque posuere venenatis massa.
                   </p>
-                  
+
                   <p>
                     Convallis lobortis sodales viverra non hendrerit nec. Sed cubilia imperdiet nostra purus inceptos sem enim. Scelerisque erat hac malesuada porttitor nascetur. Porttitor per iaculis felis quis potenti mus dui nostra. Nibh risus senectus fringilla sociosqu consectetur lacinia aliquet curabitur. Ad mi amet fringilla ultrices dis nunc cubilia libero integer. Netus et curabitur tellus faucibus nisi vel purus tempus. Scelerisque ligula finibus placerat himenaeos eget. Efficitur ad ridiculus nunc libero tempus eros iaculis penatibus venenatis.
                   </p>
