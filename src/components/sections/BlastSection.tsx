@@ -13,25 +13,25 @@ const BlastSection = () => {
                   VEXT BLAST
                 </h3>
               </div>
-              <div className="-space-y-4">
+              <div className="-space-y-2">
                 <article className="pl-4 relative">
-                  <div className="absolute inset-x-[-100vw] top-2 bottom-2 bg-[#F2FCE2]/5" />
-                  <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white uppercase">
+                  <div className="absolute inset-x-[-100vw] top-1 bottom-1 bg-[#F2FCE2]/5" />
+                  <h4 className="text-[24px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white uppercase">
                     THE RISE OF RECESSION CORE
                   </h4>
                 </article>
                 <article className="pl-4">
-                  <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
+                  <h4 className="text-[24px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
                     RISE OF THE HEALER-DEALER
                   </h4>
                 </article>
                 <article className="pl-4">
-                  <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
+                  <h4 className="text-[24px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
                     FATPHOBIA IN Y2K FASHION
                   </h4>
                 </article>
                 <article className="pl-4">
-                  <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
+                  <h4 className="text-[24px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
                     QUEEN'S GAMBIT IRL
                   </h4>
                 </article>
