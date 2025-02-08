@@ -65,7 +65,7 @@ const Sample = () => {
                       </p>
                       
                       <p>
-                        Tristique diam consectetur iaculis class metus montes ante. Vitae netus conubia tincidunt nibh mauris quisque morbi. Praesent rhoncus aenean mus a litora sagittis varius.
+                        Tristique diam consectetur iaculis class metus montes ante. Vitae netus conubia tincidunt nibh mauris quisque morbi. Praesent rhoncus aenean mus a litora sagittis varius. Egestas pharetra dictumst facilisis condimentum justo volutpat enim. Sollicitudin feugiat tempus accumsan ultricies bibendum cras duis. Nam euismod gravida fermentum risus vehicula elementum praesent. Integer viverra torquent congue cursus habitasse quisque leo mauris. Phasellus lacinia ultrices donec hendrerit etiam ac.
                       </p>
                     </div>
                   </div>
