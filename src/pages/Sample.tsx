@@ -68,9 +68,9 @@ const Sample = () => {
                   </p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-0 items-start">
-                    <div className="w-[75%] mx-auto aspect-square relative overflow-hidden">
+                    <div className="w-[90%] aspect-square relative overflow-hidden">
                       <img 
-                        src="/lovable-uploads/00d464a5-6fa5-4d73-89a1-8b3d7d50b587.png"
+                        src="/lovable-uploads/01c5b644-ab4d-4e93-94ca-f342bf38f987.png"
                         alt="Artistic digital painting with sunglasses"
                         className="w-full h-full object-cover"
                       />
