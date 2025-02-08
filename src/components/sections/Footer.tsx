@@ -38,7 +38,7 @@ const Footer = () => {
     { 
       name: "Twitch", 
       url: "https://www.twitch.tv/vextmagazine", 
-      handle: "https://www.twitch.tv/vextmagazine",
+      handle: "vextmagazine",
     }
   ];
 
