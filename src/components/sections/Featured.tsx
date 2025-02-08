@@ -40,14 +40,14 @@ const Featured = () => {
           {/* Content overlay */}
           <div className="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-black to-transparent text-left">
             <div>
-              <div className="inline-block">
+              <h2 className="text-white text-[48px] uppercase leading-[52.8px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] break-words mb-4">
+                <Link to="/article" className="hover:text-[#C6FF00] transition-colors">JPEGMAFIA</Link>: TO SERVE & PROTECT
+              </h2>
+              <div className="inline-block mb-2">
                 <div className="relative px-4 py-0 border border-white rounded-[21px]">
                   <div className="text-white text-[24px] font-instrument leading-[28px] font-normal">MUSIC</div>
                 </div>
               </div>
-              <h2 className="text-white text-[48px] uppercase leading-[52.8px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] break-words">
-                <Link to="/article" className="hover:text-[#C6FF00] transition-colors">JPEGMAFIA</Link>: TO SERVE & PROTECT
-              </h2>
               <p className="font-handjet text-base leading-[17.6px]">
                 <span className="text-[#C6FF00]">By Sandra Song</span>
               </p>
@@ -60,4 +60,3 @@ const Featured = () => {
 };
 
 export default Featured;
-
