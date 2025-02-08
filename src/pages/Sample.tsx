@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
-import { MessageCircle, ThumbsUp, ChevronDown } from "lucide-react";
+import { MessageCircle, ThumbsUp, Plus, Minus } from "lucide-react";
 
 const Sample = () => {
   const [expandedComment, setExpandedComment] = useState<number | null>(null);
@@ -120,15 +120,24 @@ const Sample = () => {
                       </div>
                       <div>
                         <p className="font-handjet text-gray-100">This article perfectly captures the essence of JPEGMAFIA's artistic journey.</p>
-                        <div className={`mt-2 overflow-hidden transition-all duration-300 ${expandedComment === 0 ? 'opacity-100 max-h-20' : 'opacity-0 max-h-0'}`}>
-                          <p className="font-handjet text-gray-100">The military background adds such an interesting layer to his perspective.</p>
+                        <div className={`mt-2 overflow-hidden transition-all duration-300 ${expandedComment === 0 ? 'opacity-100 max-h-96' : 'opacity-0 max-h-0'}`}>
+                          <p className="font-handjet text-gray-100">The military background adds such an interesting layer to his perspective, showing how his experiences shaped both his worldview and musical style. His time in the service clearly influenced his approach to structure and discipline in his production techniques, while simultaneously fueling his desire to challenge institutional norms.</p>
                         </div>
                         <button 
                           onClick={() => setExpandedComment(expandedComment === 0 ? null : 0)}
                           className="text-sm text-gray-400 hover:text-[#C6FF00] mt-1 flex items-center gap-1"
                         >
-                          {expandedComment === 0 ? 'Show less' : 'Show more'}
-                          <ChevronDown className={`transition-transform ${expandedComment === 0 ? 'rotate-180' : ''}`} size={14} />
+                          {expandedComment === 0 ? (
+                            <>
+                              Show less
+                              <Minus size={14} />
+                            </>
+                          ) : (
+                            <>
+                              Show more
+                              <Plus size={14} />
+                            </>
+                          )}
                         </button>
                       </div>
                     </div>
@@ -149,15 +158,24 @@ const Sample = () => {
                       </div>
                       <div>
                         <p className="font-handjet text-gray-100">Love how he challenges the status quo.</p>
-                        <div className={`mt-2 overflow-hidden transition-all duration-300 ${expandedComment === 1 ? 'opacity-100 max-h-20' : 'opacity-0 max-h-0'}`}>
-                          <p className="font-handjet text-gray-100">His production techniques are mind-blowing!</p>
+                        <div className={`mt-2 overflow-hidden transition-all duration-300 ${expandedComment === 1 ? 'opacity-100 max-h-96' : 'opacity-0 max-h-0'}`}>
+                          <p className="font-handjet text-gray-100">His production techniques are mind-blowing! The way he manipulates samples and creates such complex, layered soundscapes while maintaining a raw, authentic energy is unprecedented. Each track feels like a carefully constructed chaos that somehow makes perfect sense.</p>
                         </div>
                         <button 
                           onClick={() => setExpandedComment(expandedComment === 1 ? null : 1)}
                           className="text-sm text-gray-400 hover:text-[#C6FF00] mt-1 flex items-center gap-1"
                         >
-                          {expandedComment === 1 ? 'Show less' : 'Show more'}
-                          <ChevronDown className={`transition-transform ${expandedComment === 1 ? 'rotate-180' : ''}`} size={14} />
+                          {expandedComment === 1 ? (
+                            <>
+                              Show less
+                              <Minus size={14} />
+                            </>
+                          ) : (
+                            <>
+                              Show more
+                              <Plus size={14} />
+                            </>
+                          )}
                         </button>
                       </div>
                     </div>
@@ -178,15 +196,24 @@ const Sample = () => {
                       </div>
                       <div>
                         <p className="font-handjet text-gray-100">The way he blends experimental sounds with powerful messaging is unmatched.</p>
-                        <div className={`mt-2 overflow-hidden transition-all duration-300 ${expandedComment === 2 ? 'opacity-100 max-h-20' : 'opacity-0 max-h-0'}`}>
-                          <p className="font-handjet text-gray-100">in today's music scene.</p>
+                        <div className={`mt-2 overflow-hidden transition-all duration-300 ${expandedComment === 2 ? 'opacity-100 max-h-96' : 'opacity-0 max-h-0'}`}>
+                          <p className="font-handjet text-gray-100">In today's music scene, few artists manage to balance artistic innovation with meaningful commentary the way JPEGMAFIA does. His ability to weave social criticism and personal experiences into such forward-thinking production demonstrates a rare mastery of both form and content.</p>
                         </div>
                         <button 
                           onClick={() => setExpandedComment(expandedComment === 2 ? null : 2)}
                           className="text-sm text-gray-400 hover:text-[#C6FF00] mt-1 flex items-center gap-1"
                         >
-                          {expandedComment === 2 ? 'Show less' : 'Show more'}
-                          <ChevronDown className={`transition-transform ${expandedComment === 2 ? 'rotate-180' : ''}`} size={14} />
+                          {expandedComment === 2 ? (
+                            <>
+                              Show less
+                              <Minus size={14} />
+                            </>
+                          ) : (
+                            <>
+                              Show more
+                              <Plus size={14} />
+                            </>
+                          )}
                         </button>
                       </div>
                     </div>
