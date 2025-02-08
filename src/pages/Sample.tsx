@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -75,7 +76,7 @@ const Sample = () => {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <div className="space-y-6">
+                    <div className="space-y-6 text-left">
                       <p>
                         Mattis urna vel ex egestas; varius potenti auctor fusce. Sapien eget nulla blandit ligula mauris et morbi tristique. Dui condimentum mattis ante habitasse; nunc nibh consectetur. Platea adipiscing per vestibulum duis; sodales cursus posuere.
                       </p>
