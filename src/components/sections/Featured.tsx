@@ -46,7 +46,7 @@ const Featured = () => {
                 </div>
               </div>
               <h2 className="text-white text-[48px] uppercase leading-[52.8px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] break-words relative z-20">
-                <Link to="/sample" className="hover:text-[#C6FF00] transition-colors">JPEGMAFIA: TO SERVE & PROTECT</Link>
+                <Link to="/article" className="hover:text-[#C6FF00] transition-colors">JPEGMAFIA: TO SERVE & PROTECT</Link>
               </h2>
               <p className="font-handjet text-base leading-[17.6px]">
                 <span className="text-[#C6FF00]">By Sandra Song</span>
@@ -60,4 +60,3 @@ const Featured = () => {
 };
 
 export default Featured;
-
