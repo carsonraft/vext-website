@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -96,9 +97,9 @@ const Sample = () => {
             </div>
 
             <div className="px-4 pb-20">
-              <div className="grid grid-cols-1 md:grid-cols-[2fr,1fr] gap-8">
+              <div className="space-y-12 max-w-3xl mx-auto">
                 <div className="space-y-6">
-                  <h2 className="text-3xl font-handjet text-[#C6FF00]">Discussion</h2>
+                  <h2 className="text-3xl font-handjet text-[#C6FF00] text-center">Discussion</h2>
                   <div className="bg-black/40 p-6 rounded-lg">
                     <textarea 
                       placeholder="Join the discussion..."
@@ -111,7 +112,7 @@ const Sample = () => {
                 </div>
 
                 <div className="space-y-6">
-                  <h2 className="text-2xl font-handjet text-[#C6FF00]">Most Engaged</h2>
+                  <h2 className="text-2xl font-handjet text-[#C6FF00] text-center">Most Engaged</h2>
                   
                   <div className="space-y-4">
                     <div className="bg-black/40 p-4 rounded-lg">
