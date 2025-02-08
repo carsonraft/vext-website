@@ -39,9 +39,9 @@ const BlastSection = () => {
             </div>
           </div>
           <div className="relative flex items-center justify-center">
-            <div className="relative w-[37.5%]">
-              <div className="absolute inset-0 border border-[#C6FF00]/20 bg-[#04120B]/10 transform translate-x-[5%] -translate-y-[2.5%] z-[1]" />
-              <div className="absolute inset-0 border border-[#C6FF00]/80 bg-[#04120B]/30 transform translate-x-[2.5%] -translate-y-[5%] z-[2]" />
+            <div className="relative w-[46.875%]">
+              <div className="absolute inset-0 border border-[#C6FF00]/20 bg-[#04120B]/10 transform translate-x-[6.25%] -translate-y-[3.125%] z-[1]" />
+              <div className="absolute inset-0 border border-[#C6FF00]/80 bg-[#04120B]/30 transform translate-x-[3.125%] -translate-y-[6.25%] z-[2]" />
               <img
                 loading="lazy"
                 src="/lovable-uploads/ea91a4e9-e0f0-4457-be98-74efc1dc89ad.png"
