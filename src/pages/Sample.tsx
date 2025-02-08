@@ -100,7 +100,7 @@ const Sample = () => {
                 <div className="space-y-4">
                   <h2 className="text-2xl font-handjet text-[#C6FF00] text-center">Most Engaged</h2>
                   
-                  <div className="space-y-3">
+                  <div className="space-y-2">
                     <div className="bg-black/40 p-4 rounded-lg">
                       <div className="flex justify-between items-start mb-2">
                         <span className="font-handjet text-gray-300">@user123</span>
@@ -118,8 +118,6 @@ const Sample = () => {
                       <p className="font-handjet text-gray-100">This article perfectly captures the essence of JPEGMAFIA's artistic journey. The military background adds such an interesting layer to his perspective.</p>
                     </div>
 
-                    <div className="border-t border-gray-800 my-3"></div>
-
                     <div className="bg-black/40 p-4 rounded-lg">
                       <div className="flex justify-between items-start mb-2">
                         <span className="font-handjet text-gray-300">@musicfan99</span>
@@ -136,8 +134,6 @@ const Sample = () => {
                       </div>
                       <p className="font-handjet text-gray-100">Love how he challenges the status quo. His production techniques are mind-blowing!</p>
                     </div>
-
-                    <div className="border-t border-gray-800 my-3"></div>
 
                     <div className="bg-black/40 p-4 rounded-lg">
                       <div className="flex justify-between items-start mb-2">
