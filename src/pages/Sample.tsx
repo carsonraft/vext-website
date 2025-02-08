@@ -57,7 +57,7 @@ const Sample = () => {
                       <img 
                         src="/lovable-uploads/a367a41c-5c68-4f07-985f-c16efc56b589.png"
                         alt="Artistic portrait with sunglasses"
-                        className="w-full h-full object-cover object-left-top"
+                        className="w-[200%] h-[200%] object-cover object-left-top"
                       />
                     </div>
                     <div className="space-y-6">
