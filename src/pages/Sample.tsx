@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
@@ -73,7 +74,7 @@ const Sample = () => {
                   <p>
                     Laoreet maximus ad lacinia neque id conubia vulputate. Fusce scelerisque himenaeos habitant phasellus cras egestas commodo laoreet. Vitae metus felis convallis senectus phasellus, consectetur nibh nulla auctor. Inceptos magna faucibus interdum magna quis ex vulputate sem. Amet nunc mauris penatibus posuere proin. Himenaeos porta volutpat tellus litora; curae cras eleifend.
                   </p>
-                  <p className="text-gray-400 text-sm mt-8 mb-8">Originally published 3/2/2025</p>
+                  <p className="text-gray-400 text-sm mt-8 mb-24">Originally published 3/2/2025</p>
                 </article>
               </div>
             </div>
@@ -86,3 +87,4 @@ const Sample = () => {
 };
 
 export default Sample;
+
