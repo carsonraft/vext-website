@@ -29,3 +29,4 @@ jobs:
         with:
           branch: main
           folder: dist  # Change this to 'build' if using Create React App
+          token: ${{ secrets.GITHUB_TOKEN }}
