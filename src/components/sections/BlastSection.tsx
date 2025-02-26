@@ -1,29 +1,8 @@
 
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const BlastSection = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(0);
-
-  const articles = [
-    {
-      title: "THE RISE OF RECESSION CORE",
-      link: "/recession-core",
-    },
-    {
-      title: "MY GIRLFRIEND'S HUSBAND'S CYBERTRUCK REVIEW",
-      link: "#",
-    },
-    {
-      title: "HOW TO ETHICALLY EUTHANIZE YOUR AI WIFE",
-      link: "#",
-    },
-    {
-      title: "THE COQUETTE EFFECT",
-      link: "#",
-    },
-  ];
-
   return (
     <section className="bg-[#04120B] py-16">
       <div className="container mx-auto px-4">
@@ -31,26 +10,29 @@ const BlastSection = () => {
           <div className="space-y-8 pl-8">
             <div>
               <div className="-space-y-4">
-                {articles.map((article, index) => (
-                  <article 
-                    key={article.title} 
-                    className="pl-4 relative"
-                    onMouseEnter={() => setHoveredIndex(index)}
-                  >
-                    {hoveredIndex === index && (
-                      <div className="absolute inset-x-[-100vw] top-2 bottom-2 bg-[#F2FCE2]/5 transition-all duration-300" />
-                    )}
-                    <Link to={article.link}>
-                      <h4 
-                        className={`text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] uppercase transition-colors ${
-                          hoveredIndex === index ? "text-white" : "text-white/30 hover:text-white/50"
-                        }`}
-                      >
-                        {article.title}
-                      </h4>
-                    </Link>
-                  </article>
-                ))}
+                <article className="pl-4 relative">
+                  <div className="absolute inset-x-[-100vw] top-2 bottom-2 bg-[#F2FCE2]/5" />
+                  <Link to="/recession-core">
+                    <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white uppercase hover:text-[#C6FF00] transition-colors">
+                      THE RISE OF RECESSION CORE
+                    </h4>
+                  </Link>
+                </article>
+                <article className="pl-4">
+                  <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
+                    MY GIRLFRIEND'S HUSBAND'S CYBERTRUCK REVIEW
+                  </h4>
+                </article>
+                <article className="pl-4">
+                  <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
+                    HOW TO ETHICALLY EUTHANIZE YOUR AI WIFE
+                  </h4>
+                </article>
+                <article className="pl-4">
+                  <h4 className="text-[48px] tracking-[0.02em] font-['EnfiladeTRIALHeadline-Bold'] text-white/30 uppercase">
+                    THE COQUETTE EFFECT
+                  </h4>
+                </article>
               </div>
             </div>
           </div>
